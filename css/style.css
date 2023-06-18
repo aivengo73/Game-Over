@@ -1,0 +1,192 @@
+h1,
+h2,
+ul {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 1280px;
+	margin: auto;
+}
+
+body {
+	background-color: #1b1a1b;
+	color: #ffffff;
+}
+
+.header {
+	margin-top: 146px;
+	margin-bottom: 100px;
+}
+
+.header__title {
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 150px;
+	color: #ffffff;
+	line-height: 100%;
+	letter-spacing: -0.1em;
+	text-align: center;
+}
+
+.header__span {
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 28px;
+	line-height: 50px;
+	color: #ffffff;
+}
+
+.halls {
+	margin-bottom: 100px;
+}
+
+.halls__title {
+	margin-bottom: 60px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.list-item {
+	margin-bottom: 60px;
+}
+
+.list-item:last-child {
+	margin-bottom: 0;
+}
+
+.booking {
+	margin-bottom: 100px;
+}
+
+.booking__title {
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.about-us {
+	margin-bottom: 100px;
+}
+
+.about-us__title {
+	margin-bottom: 50px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about-us__text {
+	margin-bottom: 78px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #ffffff;
+}
+
+.blockquote-text {
+	margin-bottom: 42px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 50px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.blockquote-item {
+	display: flex;
+	margin-left: 790px;
+}
+
+.item-img {
+	margin-right: 30px;
+	background-color: #e5e5e5;
+	border-radius: 50%;
+	/* background: url('james-barr-oRsSeYqJUgY-unsplash.jpg'); */
+}
+
+.item-span {
+	/* display: block; */
+	width: 280px;
+	margin-right: 0;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #ffffff;
+	/* or 140% */
+
+}
+
+.item {
+	background-color: #fff;
+	color: #1c1a1a;
+	font-weight: 700;
+	padding: 30px 70px;
+	margin-bottom: 20px;
+}
+
+.item:nth-child(2n) {
+	background-color: #440f51;
+	color: #fff;
+}
+
+.item,
+.purple {
+	position: relative;
+}
+
+.item-span {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+
+.item:last-child {
+	margin-bottom: 0;
+}
+
+.item:nth-child(odd)::after {
+	content: "";
+	width: 35px;
+	height: 35px;
+	background-image: url("../images/open-purple.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+	position: absolute;
+	left: 990px;
+	bottom: 25px;
+	
+}
+
+.purple:nth-child(even)::after {
+	content: "";
+	background-image: url("../images/open.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
