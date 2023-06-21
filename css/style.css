@@ -1,24 +1,50 @@
-/* !!         Общие настройки              */
+/* !!            global              */
 
-h1,
-h2,
-ul {
-	margin: 0;
-	padding: 0;
+html {
 	box-sizing: border-box;
+	position: relative;
 }
 
-ul {
-	list-style: none;
+* {
+	box-sizing: inherit;
 }
 
-*::after {
-	box-sizing: border-box;
+body {
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+button {
+	cursor: pointer;
 }
 
 a {
+	color: inherit;
 	text-decoration: none;
 }
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset,
+blockquote {
+	margin: 0;
+}
+
+/* !!         Общие настройки              */
 
 svg {
 	max-width: 100%;
@@ -30,7 +56,7 @@ a:hover {
 }
 
 .container {
-	width: 1280px;
+	width: 1180px;
 	margin: auto;
 }
 
@@ -39,28 +65,24 @@ body {
 	color: #ffffff;
 }
 
-main {
-	margin-top: 146px;
-	margin-bottom: 100px;
-}
-
-/* !!                   header                */
+/* !!                 section header                */
 
 .header {
+	padding-top: 146px;
 	position: relative;
-	margin-bottom: 640px;
+	padding-bottom: 590px;
 }
 
 .header::after {
 	content: "";
 	position: absolute;
+	width: 675px;
+	height: 672px;
+	left: 900px;
+	top: 216px;
 	background-image: url("../images/Слой.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 675px;
-	height: 672px;
-	left: 850px;
-	top: 70px;
 }
 
 .header__title {
@@ -73,20 +95,21 @@ main {
 	letter-spacing: -0.1em;
 }
 
-.header__span {
+.header__text {
+	padding-left: 100px;
 	font-family: "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 28px;
 	line-height: 50px;
 	color: #ffffff;
-	margin-left: 100px;
 }
 
 /* !!               section halls               */
 
 .halls {
-	margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .halls__title {
@@ -150,9 +173,10 @@ main {
 	background-repeat: no-repeat;
 }
 
-.list-item-span {
+.list-item-elem {
 	display: flex;
 	justify-content: center;
+	width: 226px;
 	text-align: center;
 }
 
@@ -163,10 +187,12 @@ main {
 /* !!            section booking                 */
 
 .booking {
-	margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .booking__title {
+	margin-bottom: 50px;
 	font-family: "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 700;
@@ -175,13 +201,13 @@ main {
 	color: #ffffff;
 	text-align: center;
 	text-transform: uppercase;
-	margin-bottom: 50px;
 }
 
 /* !!              section about-us              */
 
 .about-us {
-	margin-bottom: 100px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .about-us__title {
@@ -208,6 +234,7 @@ main {
 
 .blockquote-text {
 	margin-bottom: 42px;
+	padding-left: 55px;
 	font-family: "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -222,57 +249,69 @@ main {
 }
 
 .blockquote-text::before {
-	content: '';
+	content: "";
+	position: absolute;
 	width: 24px;
 	height: 20px;
+	left: 0px;
+	top: -4px;
 	background-image: url("../images/“.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	left: -40px;
-	top: -4px;
-	position: absolute;
-
 }
 
 .blockquote-text::after {
-	content: '';
+	content: "";
+	position: absolute;
 	width: 24px;
 	height: 20px;
+	top: 41px;
+	left: 1060px;
 	background-image: url("../images/“.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	left: 998px;
-	position: absolute;
 	transform: translateY(75%) rotate(180deg);
-top: 41px;
 }
 
 .blockquote-item {
 	display: flex;
-	margin-left: 790px;
+	justify-content: end;
+}
+
+.blockquote-item-img {
+	margin-right: 30px;
+	border-radius: 50%;
+}
+
+.blockquote-item-text {
+	width: 280px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 28px;
 }
 
 /* !!                  section  list            */
 
 .list {
-	margin-bottom: 100px;
-}
-
-.item-img {
-	margin-right: 30px;
-	background-color: #e5e5e5;
-	border-radius: 50%;
-	/* background: url('james-barr-oRsSeYqJUgY-unsplash.jpg'); */
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .item {
-	margin-bottom: 20px;
 	padding: 30px 70px;
-	background-color: #fff;
 	color: #1c1a1a;
+	background-color: #fff;
 }
 
-.item-span {
+.item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.item-text {
+	width: 780px;
 	font-family: "Arial", sans-serif;
 	font-style: normal;
 	font-size: 24px;
@@ -281,8 +320,8 @@ top: 41px;
 }
 
 .item:nth-child(2n) {
-	background-color: #440f51;
 	color: #fff;
+	background-color: #440f51;
 }
 
 .item,
@@ -292,26 +331,26 @@ top: 41px;
 
 .item:nth-child(odd)::after {
 	content: "";
+	position: absolute;
 	width: 35px;
 	height: 35px;
+	left: 1094px;
+	bottom: 27px;
 	background-image: url("../images/open-purple.svg");
 	background-repeat: no-repeat;
 	background-size: contain;
-	position: absolute;
-	left: 1194px;
-	bottom: 25px;
 }
 
 .purple:nth-child(even)::after {
 	content: "";
+	position: absolute;
 	width: 35px;
 	height: 35px;
+	left: 1094px;
+	bottom: 27px;
 	background-image: url("../images/open.svg");
 	background-size: contain;
 	background-repeat: no-repeat;
-	position: absolute;
-	left: 1194px;
-	bottom: 25px;
 }
 
 .list__title {
@@ -329,7 +368,8 @@ top: 41px;
 /* !!          footer            */
 
 footer {
-	margin-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 }
 
 .footer__title {
@@ -347,7 +387,7 @@ footer {
 .list-link {
 	margin-bottom: 11px;
 }
-.link-span,
+
 .link-tel,
 .link-email {
 	padding-left: 66px;
@@ -355,14 +395,35 @@ footer {
 	background-repeat: no-repeat;
 	background-position: left;
 	color: #ffffff;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
 }
 
 .link-span {
-	top: 5px;
-	width: 32px;
-	height: 34px;
-	background-image: url("../images/location.svg");
+	width: 300px;
+	padding-left: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
 }
+
+.link-img {
+	margin-right: 30px;
+}
+
+.location {
+	display: flex;
+}
+
 .link-tel {
 	background-image: url("../images/phone-call.svg");
 }
@@ -408,13 +469,13 @@ footer {
 }
 
 .link:hover {
-color: #CD06FF;
+	color: #cd06ff;
 }
 
 .link:focus {
-outline-color: #CD06FF;;
+	outline-color: #cd06ff;
 }
 
 .link:active {
-	color: #840AA3;
+	color: #840aa3;
 }
