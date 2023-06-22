@@ -1,0 +1,77 @@
+/* !!          footer            */
+
+footer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.footer__title {
+	margin-bottom: 54px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.list-link {
+	margin-bottom: 11px;
+}
+
+.link-tel,
+.link-email {
+	padding-left: 66px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.link-span {
+	width: 300px;
+	padding-left: 0;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: left;
+	color: #ffffff;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 28px;
+}
+
+.link-img {
+	margin-right: 30px;
+}
+
+.location {
+	display: flex;
+}
+
+.link-tel {
+	background-image: url("/css/footer/img/phone-call.svg");
+}
+.link-email {
+	background-image: url("/css/footer/img/letter.svg");
+}
+
+.list-link:first-child {
+	margin-bottom: 38px;
+}
+
+.list-link:last-child {
+	margin-bottom: 0;
+}
+
+.footer__list {
+	margin-bottom: 38px;
+}

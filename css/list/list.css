@@ -1,0 +1,71 @@
+/* !!                  section  list            */
+
+.list {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.item {
+	padding: 30px 70px;
+	color: #1c1a1a;
+	background-color: #fff;
+}
+
+.item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.item-text {
+	width: 780px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 28px;
+}
+
+.item:nth-child(2n) {
+	color: #fff;
+	background-color: #440f51;
+}
+
+.item,
+.purple {
+	position: relative;
+}
+
+.item:nth-child(odd)::after {
+	content: "";
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 1094px;
+	bottom: 27px;
+	background-image: url("/css/list/img/open-purple.svg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.purple:nth-child(even)::after {
+	content: "";
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	left: 1094px;
+	bottom: 27px;
+	background-image: url("/css/list/img/open.svg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.list__title {
+	margin-bottom: 40px;
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}

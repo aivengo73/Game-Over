@@ -1,0 +1,36 @@
+.footer__social {
+	display: flex;
+	align-items: center;
+}
+
+.social-list {
+	width: 50px;
+	height: 50px;
+	margin-right: 28px;
+	outline: 1px solid transparent;
+	outline-offset: 3px;
+	border-radius: 50%;
+	transition-property: color, outline-color;
+	transition-duration: 0.3s, 0.2s;
+	transition-timing-function: ease-in-out;
+}
+
+.social-list:last-child {
+	margin-right: 0;
+}
+
+.link {
+	color: #ffffff;
+}
+
+.link:hover {
+	color: #cd06ff;
+}
+
+.link:focus {
+	outline-color: #cd06ff;
+}
+
+.link:active {
+	color: #840aa3;
+}

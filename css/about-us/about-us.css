@@ -1,0 +1,89 @@
+/* !!              section about-us              */
+
+.about-us {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about-us__title {
+	margin-bottom: 50px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.about-us__text {
+	margin-bottom: 78px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+	color: #ffffff;
+}
+
+.blockquote-text {
+	margin-bottom: 42px;
+	padding-left: 55px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 44px;
+	line-height: 50px;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.about-us__blockquote {
+	position: relative;
+}
+
+.blockquote-text::before {
+	content: "";
+	position: absolute;
+	width: 24px;
+	height: 20px;
+	left: 0px;
+	top: -4px;
+	background-image: url("/css/about-us/img/“.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.blockquote-text::after {
+	content: "";
+	position: absolute;
+	width: 24px;
+	height: 20px;
+	top: 41px;
+	left: 1060px;
+	background-image: url("/css/about-us/img/“.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	transform: translateY(75%) rotate(180deg);
+}
+
+.blockquote-item {
+	display: flex;
+	justify-content: end;
+}
+
+.blockquote-item-img {
+	margin-right: 30px;
+	border-radius: 50%;
+}
+
+.blockquote-item-text {
+	width: 280px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	color: #ffffff;
+	line-height: 28px;
+}

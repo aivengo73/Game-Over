@@ -1,0 +1,78 @@
+/* !!               section halls               */
+
+.halls {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.halls__title {
+	margin-bottom: 60px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.halls__list {
+	display: block;
+	font-family: "Arial";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 70px;
+	line-height: 80px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.list-item {
+	margin-bottom: 60px;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.one {
+	width: 1180px;
+	height: 710px;
+	background-image: url("../halls/img/Rectangle1.jpg");
+	background-repeat: no-repeat;
+}
+
+.two {
+	width: 1180px;
+	height: 710px;
+	background-image: url("../halls/img/Rectangle2.jpg");
+	background-repeat: no-repeat;
+}
+
+.three {
+	width: 1180px;
+	height: 710px;
+	background-image: url("../halls/img/Rectangle3.jpg");
+	background-repeat: no-repeat;
+}
+
+.four {
+	width: 1180px;
+	height: 710px;
+	background-image: url("../halls/img/Rectangle4.jpg");
+	background-repeat: no-repeat;
+}
+
+.list-item-elem {
+	display: flex;
+	justify-content: center;
+	width: 226px;
+	text-align: center;
+}
+
+.list-item:last-child {
+	margin-bottom: 0;
+}
