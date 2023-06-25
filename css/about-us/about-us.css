@@ -17,7 +17,18 @@
 	text-transform: uppercase;
 }
 
+.wrap {
+	display:grid;
+	grid-template-columns: repeat(2,1fr);
+	column-gap: 80px;
+}
+
+.wrap-left-img {
+	height: 629px;
+}
+
 .about-us__text {
+	width: 500px;
 	margin-bottom: 78px;
 	font-family: "Arial", sans-serif;
 	font-style: normal;
@@ -28,8 +39,9 @@
 }
 
 .blockquote-text {
-	margin-bottom: 42px;
-	padding-left: 55px;
+	width: 469px;
+	margin-bottom: 50px;
+	padding-left: 30px;
 	font-family: "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -60,8 +72,8 @@
 	position: absolute;
 	width: 24px;
 	height: 20px;
-	top: 41px;
-	left: 1060px;
+	top: 142px;
+	left: 360px;
 	background-image: url("/css/about-us/img/“.png");
 	background-repeat: no-repeat;
 	background-size: contain;
