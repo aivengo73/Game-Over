@@ -29,8 +29,15 @@
 	text-transform: uppercase;
 }
 
+.halls__list {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	
+}
+
 .list-item {
-	margin-bottom: 60px;
+	/* margin-bottom: 60px; */
 	display: flex;
 	width: 100%;
 	height: 100vh;
@@ -39,39 +46,43 @@
 	align-items: center;
 }
 .one {
-	width: 1180px;
-	height: 710px;
-	background-image: url("../halls/img/Rectangle1.jpg");
+	width:100%;
+	height: 349px;
+	background-image: url("../halls/img/halls1.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .two {
-	width: 1180px;
-	height: 710px;
+	width: auto;
+	height: 349px;
 	background-image: url("../halls/img/Rectangle2.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .three {
-	width: 1180px;
-	height: 710px;
+	width: auto;
+	height: 349px;
 	background-image: url("../halls/img/Rectangle3.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .four {
-	width: 1180px;
-	height: 710px;
+	width: auto;
+	height: 349px;
 	background-image: url("../halls/img/Rectangle4.jpg");
 	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.list-item-elem {
+/* .list-item-elem {
 	display: flex;
 	justify-content: center;
 	width: 226px;
 	text-align: center;
-}
+} */
 
 .list-item:last-child {
 	margin-bottom: 0;
