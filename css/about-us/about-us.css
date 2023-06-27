@@ -61,7 +61,7 @@
 	width: 24px;
 	height: 20px;
 	left: 0px;
-	top: -4px;
+	top: -2%;
 	background-image: url("/css/about-us/img/“.png");
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -72,8 +72,8 @@
 	position: absolute;
 	width: 24px;
 	height: 20px;
-	top: 142px;
-	left: 360px;
+	top: 44%;
+	left: 71%;
 	background-image: url("/css/about-us/img/“.png");
 	background-repeat: no-repeat;
 	background-size: contain;
