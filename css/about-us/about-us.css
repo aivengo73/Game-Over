@@ -24,12 +24,12 @@
 }
 
 .wrap-left-img {
-	height: 629px;
+	/* height: 629px; */
 }
 
 .about-us__text {
 	width: 500px;
-	margin-bottom: 78px;
+	margin-bottom: 50px;
 	font-family: "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 400;
@@ -40,7 +40,7 @@
 
 .blockquote-text {
 	width: 469px;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 	padding-left: 30px;
 	font-family: "Arial", sans-serif;
 	font-style: normal;

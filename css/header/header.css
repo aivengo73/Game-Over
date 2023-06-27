@@ -4,7 +4,8 @@
 .header {
 	padding-top: 146px;
 	position: relative;
-	padding-bottom: 590px;
+	height: 940px;
+	padding-bottom: 50px;
 }
 
 .header::after {
@@ -12,10 +13,10 @@
 	position: absolute;
 	width: 675px;
 	height: 672px;
-	left: 905px;
-	/* left: 47.5%; */
-	top: 216px;
-	/* top: 23%; */
+	/* left: 905px; */
+	left: 47.5%;
+	/* top: 216px; */
+	top: 23%;
 	background-image: url("/css/header/img/Слой.png");
 	background-repeat: no-repeat;
 	background-size: contain;
