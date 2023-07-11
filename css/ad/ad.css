@@ -1,0 +1,65 @@
+.ad {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.ad__title {
+	margin-bottom: 60px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 50px;
+	color: #ffffff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.ad__list {
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px 20px;
+}
+
+.ad__list-elements {
+
+	width: 380px;
+	height: 228px;
+	
+	background-size: cover;
+}
+
+.element-text {
+	width: 300px;
+	padding-top: 166px;
+	padding-left: 40px;
+	font-family: "Arial", sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	font-style: normal;
+	color: #ffffff;
+	line-height: 28px;
+}
+
+.ad__list-one {
+	background: url('/../css/ad/img/ad1.jpg');
+}
+
+.ad__list-two {
+	background: url('/../css/ad/img/ad2.jpg');
+}
+
+.ad__list-three{
+	background: url('/../css/ad/img/ad3.jpg');
+}
+
+.ad__list-four {
+	background: url('/../css/ad/img/ad4.jpg');
+}
+
+.ad__list-five {
+	background: url('/../css/ad/img/ad5.jpg');
+}
+
+.ad__list-six {
+	background: url('/../css/ad/img/ad6.jpg');
+}
