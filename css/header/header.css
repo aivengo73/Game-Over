@@ -3,6 +3,18 @@
 	padding-bottom: 25px;
 }
 
+.header::after {
+	content: "";
+	position: absolute;
+	width: 97px;
+	height: 97px;
+	left: 49.1%;
+	top: 10%;
+	background-image: url("/css/main/img/down.svg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	z-index: 1;
+}
 
 .header__button {
 	padding: 13px 32px;
@@ -32,7 +44,7 @@
 }
 
 .header__nav-items:not(:last-child) {
-		margin-right: 20px;
+	margin-right: 20px;
 }
 /* ::-webkit-input-placeholder {
 	
