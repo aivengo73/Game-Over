@@ -1,3 +1,5 @@
+/* !! ================== section ad ================ */
+
 .ad {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -21,10 +23,8 @@
 }
 
 .ad__list-elements {
-
 	width: 380px;
 	height: 228px;
-	
 	background-size: cover;
 }
 
@@ -41,25 +41,25 @@
 }
 
 .ad__list-one {
-	background: url('/../css/ad/img/ad1.jpg');
+	background: url("/../css/ad/img/ad1.jpg");
 }
 
 .ad__list-two {
-	background: url('/../css/ad/img/ad2.jpg');
+	background: url("/../css/ad/img/ad2.jpg");
 }
 
-.ad__list-three{
-	background: url('/../css/ad/img/ad3.jpg');
+.ad__list-three {
+	background: url("/../css/ad/img/ad3.jpg");
 }
 
 .ad__list-four {
-	background: url('/../css/ad/img/ad4.jpg');
+	background: url("/../css/ad/img/ad4.jpg");
 }
 
 .ad__list-five {
-	background: url('/../css/ad/img/ad5.jpg');
+	background: url("/../css/ad/img/ad5.jpg");
 }
 
 .ad__list-six {
-	background: url('/../css/ad/img/ad6.jpg');
+	background: url("/../css/ad/img/ad6.jpg");
 }

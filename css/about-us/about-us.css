@@ -1,4 +1,4 @@
-/* !!              section about-us              */
+/* !! ============ section about-us ============= */
 
 .about-us {
 	padding-top: 50px;
@@ -18,15 +18,9 @@
 }
 
 .wrap {
-	display:grid;
 	grid-template-columns: repeat(2,1fr);
 	column-gap: 80px;
 }
-
-.wrap-left-img {
-	/* height: 629px; */
-}
-
 .about-us__text {
 	width: 500px;
 	margin-bottom: 50px;

@@ -1,9 +1,9 @@
-/* !!            section booking                 */
+/* !! ============= section booking ============ */
 
 .booking {
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background: #440F51 ;
+	background: #440f51;
 }
 
 .booking__wrap-title {
@@ -26,23 +26,34 @@
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
-	line-height: 28px;
 	color: #ffffff;
+	line-height: 28px;
 	text-align: center;
-	
 }
 
-.booking__wrap-btn {
+.booking__wrap-media-left-title,
+.booking__wrap-media-center-title,
+.booking__wrap-media-right-title {
+	margin-bottom: 23px;
+	font-family: "Arial", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	color: #ffffff;
+	line-height: 28px;
+}
+
+.btn-btn {
 	margin-bottom: 60px;
-	padding: 8px 16px;
+	padding: 7px 46px;
 	font-size: 30px;
 	font-weight: 700;
+	line-height: 40px;
 	color: #000000;
 	background: #ffffff;
 	border-radius: 8px;
 	text-transform: uppercase;
 	outline: none;
-
 	cursor: pointer;
 }
 
@@ -50,73 +61,139 @@
 	margin-bottom: 60px;
 }
 
-.booking__wrap-media-left,
-.booking__wrap-media-centr,
-.booking__wrap-media-right {
-	flex-direction: column;
-
-}
-
 .media-left-input,
-.media-center-input {
+.media-center-input,
+.media-right-input {
 	font-family: "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 22px;
-	line-height: 25.3px;
 	color: #ffffff;
+	line-height: 25.3px;
 }
 
-.media-left-input:not(:last-child) {
+.booking__wrap-input {
+	width: 25px;
+	height: 25px;
+}
+
+.media-left-list:not(:last-child) {
 	margin-bottom: 20px;
 }
 
-.media-center-input:not(:last-child) {
+.media-center-list:not(:last-child) {
 	margin-bottom: 20px;
 }
 
-.media-right-input:not(:last-child) {
+.media-right-list:not(:last-child) {
 	margin-bottom: 20px;
 }
 
 .booking__wrap-order {
 	margin-bottom: 38px;
 }
-/* 
-.booking__wrap-bottom-left {
-	flex-direction: column;
-} */
 
-h4 {
+.booking__wrap-media-left-list > li > label,
+.booking__wrap-media-center-list > li > label,
+.booking__wrap-media-right-list > li > label {
+	margin-right: 12px;
+}
+
+.booking__wrap-media-left-list > li,
+.booking__wrap-media-center-list > li,
+.booking__wrap-media-right-list > li {
+	display: flex;
+	align-items: center;
+}
+
+.booking__wrap-bottom-left,
+.booking__wrap-bottom-right {
+	width: 300px;
+}
+
+.booking__wrap-bottom-center {
+	width: 280px;
+}
+
+.booking__wrap-left-grup {
+	padding-top: 32px;
+	margin-bottom: 42px;
+}
+
+.input-date,
+.input-time {
+	width: 134px;
+	height: 52px;
+	padding-left: 20px;
+	background-image: url("/css/booking/img/booking.svg");
+	background-size: 21px 15px;
+	background-repeat: no-repeat;
+	background-position: 86px 50%;
+	border: none;
+}
+
+.input-date::placeholder,
+.input-time::placeholder,
+.input-number::placeholder {
 	font-family: "Arial", sans-serif;
 	font-style: normal;
-	font-weight: 700;
-	font-size: 24px;
+	font-weight: 400;
+	font-size: 18px;
+	color: #000000;
 	line-height: 28px;
-	color: #ffffff;
 }
 
-
-
-
-
-
-
-
-
-.booking__wrap-bottom-right {
-	flex-direction: column;
+.input-number {
 	width: 300px;
+	height: 52px;
+	padding-left: 20px;
+	background-image: url("/css/booking/img/booking.svg");
+	background-size: 21px 15px;
+	background-repeat: no-repeat;
+	background-position: 252px 50%;
+	border: none;
 }
 
-.booking__wrap-bottom-centr {
-	width: 280px;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-}
-
-.booking__wrap-bottom-left {
+.input-name,
+.input-surname {
 	width: 300px;
-	flex-direction: column;
+	height: 52px;
+	border: none;
+}
+
+.input-name {
+	margin-bottom: 14px;
+}
+
+.bottom-center-input,
+.bottom-right-input {
+	font-size: smaller;
+}
+
+.booking__wrap-bottom-btn {
+	padding: 16px 50px;
+	font-family: "Arial", sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	color: #6c0287;
+	background-color: #ffffff;
+	text-transform: uppercase;
+	border-radius: 10px;
+	cursor: pointer;
+	outline: none;
+}
+
+.input-tel,
+.input-email {
+	width: 300px;
+	height: 52px;
+	border: none;
+}
+
+.input-tel {
+	margin-bottom: 14px;
+}
+
+.input-email {
+	margin-bottom: 40px;
 }

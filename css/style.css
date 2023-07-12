@@ -9,7 +9,7 @@
 @import '../css/list/list.css';
 @import '../css/footer/footer.css';
 
-/* !!            global              */
+/* !! ============ global ================= */
 
 html {
 	position: relative;
@@ -55,10 +55,14 @@ ul {
 h1,
 h2,
 h3,
+h4,
 p,
 figure,
 fieldset,
-blockquote {
+blockquote,
+label,
+li,
+input {
 	margin: 0;
 }
 
@@ -76,7 +80,7 @@ iframe {
 }
 
 
-/* !!         Общие настройки              */
+/* !! ============== general settings ============= */
 
 svg {
 	max-width: 100%;
