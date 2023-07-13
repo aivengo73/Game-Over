@@ -1,26 +1,26 @@
-/* !! ================ section main =============*/
+/* !! ================ section hype =============*/
 
-.main {
+.hype {
 	padding-top: 25px;
 	position: relative;
 	height: 822px;
 	padding-bottom: 50px;
 }
 
-.main::after {
+.hype::after {
 	content: "";
 	position: absolute;
 	width: 672px;
 	height: 675px;
 	left: 47.4%;
 	top: 11.9%;
-	background-image: url("/css/main/img/Слой.png");
+	background-image: url("/css/hype/img/Слой.png");
 	background-size: 675px 672px;
 	background-repeat: no-repeat;
 	background-size: contain;
 }
 
-.main__title {
+.hype__title {
 	font-family: "Arial", sans-serif;
 	font-style: normal;
 	font-weight: 900;
@@ -30,7 +30,7 @@
 	letter-spacing: -0.1em;
 }
 
-.main__text {
+.hype__text {
 	padding-left: 100px;
 	margin-bottom: 30px;
 	font-family: "Arial", sans-serif;
@@ -41,22 +41,33 @@
 	line-height: 50px;
 }
 
-.main__content-top {
+.hype__content-top {
 	height: 174px;
 	gap: 30px;
 	margin-bottom: 130px;
 }
 
-.main__content-top-left,
-.main__content-top-right {
+.hype__content-top-left,
+.hype__content-top-right {
 	flex-direction: column;
 	justify-content: flex-end;
 	text-align: center;
 }
 
-.top-left-img,
-.top-right-img {
-	margin-bottom: 31px;
+.top-left-paragraph {
+	font-family: "Arial", sans-serif;
+	font-weight: 900;
+	font-size: 100px;
+	color: rgba(205, 6, 255, 1);
+	line-height: 141.02px;
+}
+
+.top-right-paragraph {
+	font-family: "Arial", sans-serif;
+	font-weight: 900;
+	font-size: 75px;
+	color: rgba(205, 6, 255, 1);
+	line-height: 105.76px;
 }
 
 .top-left-text,
@@ -73,11 +84,11 @@
 	width: 193px;
 }
 
-.main__content-top-right {
+.hype__content-top-right {
 	width: 166px;
 }
 
-.main__content-button {
+.hype__content-button {
 	padding: 25px 69px;
 	font-size: 26px;
 	font-weight: 700;
@@ -88,4 +99,11 @@
 	outline: none;
 	opacity: 0.8;
 	cursor: pointer;
+}
+
+.hype__link-img {
+	position: absolute;
+	top: 74%;
+	left: 49%;
+	z-index: 1;
 }
