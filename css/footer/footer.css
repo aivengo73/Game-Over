@@ -19,50 +19,25 @@ footer {
 }
 
 .list-link {
+	display: flex;
+	align-items: center;
 	margin-bottom: 11px;
 }
 
+.link-span,
 .link-tel,
 .link-email {
-	padding-left: 66px;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: left;
-	color: #ffffff;
+	padding-left: 28px;
 	font-family: Arial, sans-serif;
 	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
+	color: #ffffff;
 	line-height: 28px;
 }
 
 .link-span {
 	width: 300px;
-	padding-left: 0;
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: left;
-	color: #ffffff;
-	font-family: Arial, sans-serif;
-	font-style: normal;
-	font-weight: 700;
-	font-size: 24px;
-	line-height: 28px;
-}
-
-.link-img {
-	margin-right: 30px;
-}
-
-.location {
-	display: flex;
-}
-
-.link-tel {
-	background-image: url("/css/footer/img/phone-call.svg");
-}
-.link-email {
-	background-image: url("/css/footer/img/letter.svg");
 }
 
 .list-link:first-child {
