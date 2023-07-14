@@ -36,6 +36,12 @@ footer {
 	line-height: 28px;
 }
 
+.link-span:hover,
+.link-tel:hover,
+.link-email:hover {
+	color: rgba(132, 10, 163, 1);
+}
+
 .link-span {
 	width: 300px;
 }
@@ -71,4 +77,9 @@ footer {
 
 .footer__bottom-text:not(:last-child) {
 	margin-bottom: 6px;
+}
+
+.link-svg:hover {
+	color: rgba(132, 10, 163, 1);
+	
 }

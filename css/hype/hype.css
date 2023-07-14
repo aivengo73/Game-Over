@@ -93,12 +93,24 @@
 	font-size: 26px;
 	font-weight: 700;
 	color: #ffffff;
-	background: #6c0287;
+	background: rgba(108, 2, 135, 1);
 	border-radius: 10px;
 	text-transform: uppercase;
 	outline: none;
 	opacity: 0.8;
 	cursor: pointer;
+}
+
+.hype__content-button:hover {
+	background: rgba(132, 10, 163, 1);
+}
+
+.hype__content-button:active {
+	background: rgba(100, 10, 163, 1);
+}
+
+.hype__content-button:focus {
+	background: rgba(132, 10, 163, 1);
 }
 
 .hype__link-img {
@@ -107,3 +119,19 @@
 	left: 49%;
 	z-index: 1;
 }
+
+.hype__link-img:hover {
+	color: rgba(108, 2, 135, 1);
+	background: rgba(255, 255, 255, 1);
+	border-radius: 50%;
+} 
+
+.hype__link-img:active {
+	color: rgba(255, 255, 255, 1);
+	background: rgba(205, 6, 255, 1);
+	border-radius: 50%;
+} 
+
+.hype__link-img:focus {
+	outline: 1px solid rgba(205, 6, 255, 1);
+} 
