@@ -25,6 +25,32 @@
 	background-color: #fff;
 }
 
+.list__item-element:nth-child(2n) {
+	color: #fff;
+	background-color: #440f51;
+}
+
+.purple:hover {
+	color: rgba(108, 2, 135, 1);
+	background: rgba(255, 255, 255, 1);
+	/* border-radius: 50%; */
+}
+
+.white:hover {
+	color: rgba(255, 255, 255, 1);
+	background: rgba(108, 2, 135, 1);
+}
+
+.white:active {
+	color: rgba(255, 255, 255, 1);
+	background: transparent;
+}
+
+.purple:active {
+	color: rgba(255, 255, 255, 1);
+	background: transparent;
+}
+
 .list__item-element:not(:last-child) {
 	margin-bottom: 20px;
 }
@@ -39,38 +65,11 @@
 	line-height: 28px;
 }
 
-.list__item-element:nth-child(2n) {
-	color: #fff;
-	background-color: #440f51;
-}
-
 .list__item-svg,
 .list__item-svg-purple {
 	width: 35px;
 	height: 35px;
 }
-
-.list__item-svg-purple:hover {
-	color: rgba(255, 255, 255, 1);
-	background: rgba(108, 2, 135, 1);
-	border-radius: 50%;
-}
-
-.list__item-svg-purple:active {
-	color: rgba(108, 2, 135, 1);
-	background: transparent;
-}
-
-.list__item-svg:hover {
-	color: rgba(108, 2, 135, 1);
-	background: rgba(255, 255, 255, 1);
-	border-radius: 50%;
-}
-
-/* .item,
-.purple {
-	position: relative;
-} */
 
 /* .item:nth-child(odd)::after {
 	content: "";

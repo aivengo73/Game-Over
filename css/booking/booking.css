@@ -8,12 +8,9 @@
 
 .booking__wrap-title {
 	margin-bottom: 40px;
-	font-family: "Arial", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 50px;
-	color: #ffffff;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -22,12 +19,8 @@
 .booking__wrap-fun,
 .booking__wrap-order {
 	margin-bottom: 40px;
-	font-family: "Arial", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
-	color: #ffffff;
-	line-height: 28px;
 	text-align: center;
 }
 
@@ -35,12 +28,8 @@
 .booking__wrap-media-center-title,
 .booking__wrap-media-right-title {
 	margin-bottom: 23px;
-	font-family: "Arial", sans-serif;
-	font-style: normal;
 	font-weight: 700;
 	font-size: 24px;
-	color: #ffffff;
-	line-height: 28px;
 }
 
 .btn-btn {
@@ -59,18 +48,20 @@
 
 .btn-btn:hover {
 	background: rgba(234, 222, 237, 1);
-	border: 3px solid rgba(100, 10, 163, 1);
+	outline: 3px solid rgba(100, 10, 163, 1);
 }
 
 .btn-btn:active {
-	border: 3px solid rgba(255, 255, 255, 1);
+	outline: 3px solid rgba(255, 255, 255, 1);
 	background: rgb(108, 2, 135);
 	color: rgba(255, 255, 255, 1);
 }
 
 .btn-btn:focus {
-	border: 3px solid rgba(100, 10, 163, 1);
+	outline: 3px solid rgba(100, 10, 163, 1);
 }
+
+/* // ========== */
 
 .booking__wrap-media {
 	margin-bottom: 60px;
@@ -79,15 +70,14 @@
 .media-left-input,
 .media-center-input,
 .media-right-input {
-	font-family: "Arial", sans-serif;
-	font-style: normal;
-	font-weight: 400;
+	display: flex;
+	align-items: center;
 	font-size: 22px;
-	color: #ffffff;
 	line-height: 25.3px;
 }
 
 .booking__wrap-input {
+	margin-right: 12px;
 	width: 25px;
 	height: 25px;
 }
@@ -95,7 +85,6 @@
 .booking__wrap-input:focus {
 	outline: 2px solid rgba(205, 6, 255, 1);
 }
-
 
 .media-left-list:not(:last-child) {
 	margin-bottom: 20px;
@@ -111,19 +100,6 @@
 
 .booking__wrap-order {
 	margin-bottom: 38px;
-}
-
-.booking__wrap-media-left-list > li > label,
-.booking__wrap-media-center-list > li > label,
-.booking__wrap-media-right-list > li > label {
-	margin-right: 12px;
-}
-
-.booking__wrap-media-left-list > li,
-.booking__wrap-media-center-list > li,
-.booking__wrap-media-right-list > li {
-	display: flex;
-	align-items: center;
 }
 
 .booking__wrap-bottom-left,
@@ -223,7 +199,7 @@
 }
 
 .booking__wrap-bottom-btn:hover {
-	border: 3px solid rgba(108, 2, 135, 1);
+	outline: 3px solid rgba(108, 2, 135, 1);
 }
 
 .booking__wrap-bottom-btn:active {
@@ -231,8 +207,7 @@
 }
 
 .booking__wrap-bottom-btn:focus {
-	border: 3px solid rgba(108, 2, 135, 1);
-
+	outline: 3px solid rgba(108, 2, 135, 1);
 }
 
 .input-tel,
@@ -259,10 +234,9 @@ input:focus {
 }
 
 .input-tel:focus {
-  outline: 2px solid rgba(205, 6, 255, 1);
+	outline: 2px solid rgba(205, 6, 255, 1);
 }
 
-
 .input-email:focus {
-  outline: 2px solid rgba(205, 6, 255, 1);
+	outline: 2px solid rgba(205, 6, 255, 1);
 }

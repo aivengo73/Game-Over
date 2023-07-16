@@ -38,7 +38,8 @@ footer {
 
 .link-span:hover,
 .link-tel:hover,
-.link-email:hover {
+.link-email:hover,
+.footer__bottom-link:hover {
 	color: rgba(132, 10, 163, 1);
 }
 
@@ -83,3 +84,13 @@ footer {
 	color: rgba(132, 10, 163, 1);
 	
 }
+
+.footer__bottom-link {
+	font-family: Arial, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	color: #ffffff;
+	line-height: 16px;
+}
+
