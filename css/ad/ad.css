@@ -26,7 +26,17 @@
 	width: 380px;
 	height: 228px;
 	background-size: cover;
+	transition: transform 1s ease-in-out;
 }
+
+.ad__list-elements:hover {
+	transform: scale(1.1);
+}
+
+/* -webkit-transition:all 3s ease-in ;
+	-moz-transition:all 3s ease-in;
+	-o-transition:all 3s ease-in ;
+	-ms-transition:all 3s ease-in ; */
 
 .element-text {
 	width: 300px;

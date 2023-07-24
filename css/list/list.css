@@ -23,6 +23,9 @@
 	padding: 30px 70px;
 	color: #1c1a1a;
 	background-color: #fff;
+	transition-duration: 3s, .5s;
+	transition-property: color, background-color;
+	transition-timing-function: ease-in-out;
 }
 
 .list__item-element:nth-child(2n) {
@@ -32,23 +35,23 @@
 
 .purple:hover {
 	color: rgba(108, 2, 135, 1);
-	background: rgba(255, 255, 255, 1);
+	background-color: rgba(255, 255, 255, 1);
 	/* border-radius: 50%; */
 }
 
 .white:hover {
 	color: rgba(255, 255, 255, 1);
-	background: rgba(108, 2, 135, 1);
+	background-color: rgba(108, 2, 135, 1);
 }
 
 .white:active {
 	color: rgba(255, 255, 255, 1);
-	background: transparent;
+	background-color: transparent;
 }
 
 .purple:active {
 	color: rgba(255, 255, 255, 1);
-	background: transparent;
+	background-color: transparent;
 }
 
 .list__item-element:not(:last-child) {

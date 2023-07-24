@@ -34,6 +34,9 @@ footer {
 	font-size: 24px;
 	color: #ffffff;
 	line-height: 28px;
+	transition-duration: .3s;
+	transition-property: color;
+	transition-timing-function: ease-in-out;
 }
 
 .link-span:hover,
@@ -92,5 +95,8 @@ footer {
 	font-size: 14px;
 	color: #ffffff;
 	line-height: 16px;
+	transition-duration: .3s;
+	transition-property: color;
+	transition-timing-function: ease-in-out;
 }
 
