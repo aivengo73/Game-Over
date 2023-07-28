@@ -39,7 +39,7 @@
 	font-weight: 700;
 	line-height: 40px;
 	color: #000000;
-	background: #ffffff;
+	background: var(--main-color);;
 	border-radius: 8px;
 	text-transform: uppercase;
 	outline: none;
@@ -55,9 +55,9 @@
 }
 
 .btn-btn:active {
-	outline: 3px solid rgba(255, 255, 255, 1);
-	background-color: rgb(108, 2, 135);
-	color: rgba(255, 255, 255, 1);
+	outline: 3px solid var(--main-color);
+	background-color: var(--purple-color);
+	color: var(--main-color);
 }
 
 .btn-btn:focus {
@@ -89,7 +89,7 @@
 }
 
 .booking__wrap-input:focus {
-	outline: 2px solid rgba(205, 6, 255, 1);
+	outline: 2px solid var(--hover-color);
 }
 
 .media-left-list:not(:last-child) {
@@ -149,11 +149,11 @@
 }
 
 .input-date:focus {
-	outline: 2px solid rgba(205, 6, 255, 1);
+	outline: 2px solid var(--hover-color);
 }
 
 .input-time:focus {
-	outline: 2px solid rgba(205, 6, 255, 1);
+	outline: 2px solid var(--hover-color);
 }
 
 .input-number {
@@ -171,7 +171,7 @@
 }
 
 .input-number:focus {
-	outline: 2px solid rgba(205, 6, 255, 1);
+	outline: 2px solid var(--hover-color);
 }
 
 .input-name,
@@ -188,11 +188,11 @@
 	margin-bottom: 14px;
 }
 .input-name:focus {
-	outline: 2px solid rgba(205, 6, 255, 1);
+	outline: 2px solid var(--hover-color);
 }
 
 .input-surname:focus {
-	outline: 2px solid rgba(205, 6, 255, 1);
+	outline: 2px solid var(--hover-color);
 }
 
 .bottom-center-input,
@@ -206,7 +206,7 @@
 	font-size: 22px;
 	font-weight: 700;
 	color: #6c0287;
-	background-color: #ffffff;
+	background-color: var(--main-color);;
 	text-transform: uppercase;
 	border-radius: 10px;
 	cursor: pointer;
@@ -217,7 +217,7 @@
 }
 
 .booking__wrap-bottom-btn:hover {
-	outline: 3px solid rgba(108, 2, 135, 1);
+	outline: 3px solid var(--purple-color);
 }
 
 .booking__wrap-bottom-btn:active {
@@ -225,7 +225,7 @@
 }
 
 .booking__wrap-bottom-btn:focus {
-	outline: 3px solid rgba(108, 2, 135, 1);
+	outline: 3px solid var(--purple-color);
 }
 
 .input-tel,
@@ -244,10 +244,10 @@
 
 .bottom-right-input:focus {
 	outline: none;
-	border: 2px solid rgba(205, 6, 255, 1);
+	border: 2px solid var(--hover-color);
 }
 input:focus {
-	border: 2px solid rgba(205, 6, 255, 1);
+	border: 2px solid var(--hover-color);
 }
 
 .input-email {
@@ -255,9 +255,9 @@ input:focus {
 }
 
 .input-tel:focus {
-	outline: 2px solid rgba(205, 6, 255, 1);
+	outline: 2px solid var(--hover-color);
 }
 
 .input-email:focus {
-	outline: 2px solid rgba(205, 6, 255, 1);
+	outline: 2px solid var(--hover-color);
 }

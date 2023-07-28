@@ -12,7 +12,7 @@
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 50px;
-	color: #ffffff;
+	color: var(--main-color);
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -28,7 +28,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
-	color: #ffffff;
+	color: var(--main-color);
 	line-height: 28px;
 }
 
@@ -40,7 +40,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 44px;
-	color: #ffffff;
+	color: var(--main-color);
 	line-height: 50px;
 	text-transform: uppercase;
 }
@@ -90,6 +90,6 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 20px;
-	color: #ffffff;
+	color: var(--main-color);
 	line-height: 28px;
 }

@@ -22,7 +22,7 @@
 }
 
 .link {
-	color: #ffffff;
+	color: var(--main-color);
 }
 
 .link:hover {

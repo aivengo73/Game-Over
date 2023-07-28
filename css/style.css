@@ -1,3 +1,5 @@
+
+@import 'var.css';
 @import '../css/header/header.css';
 @import '../css/hype/hype.css';
 @import '../css/ad/ad.css';
@@ -101,6 +103,7 @@ body {
 	color: #ffffff;
 	background-color: #1b1a1b;
 	line-height: 28px;
+	/* background-color: #fff; */
 }
 
 .d-flex {

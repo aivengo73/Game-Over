@@ -25,7 +25,7 @@
 	font-style: normal;
 	font-weight: 900;
 	font-size: 150px;
-	color: #ffffff;
+	color: var(--main-color);
 	line-height: 100%;
 	letter-spacing: -0.1em;
 }
@@ -37,7 +37,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 28px;
-	color: #ffffff;
+	color: var(--main-color);
 	line-height: 50px;
 }
 
@@ -58,7 +58,7 @@
 	font-family: "Arial", sans-serif;
 	font-weight: 900;
 	font-size: 100px;
-	color: rgba(205, 6, 255, 1);
+	color: var(--hover-color);
 	line-height: 141.02px;
 }
 
@@ -66,7 +66,7 @@
 	font-family: "Arial", sans-serif;
 	font-weight: 900;
 	font-size: 75px;
-	color: rgba(205, 6, 255, 1);
+	color: var(--hover-color);
 	line-height: 105.76px;
 }
 
@@ -76,7 +76,7 @@
 	font-style: normal;
 	font-weight: 400;
 	font-size: 30px;
-	color: #ffffff;
+	color: var(--main-color);
 	line-height: auto;
 }
 
@@ -92,8 +92,8 @@
 	padding: 25px 69px;
 	font-size: 26px;
 	font-weight: 700;
-	color: #ffffff;
-	background: rgba(108, 2, 135, 1);
+	color: var(--main-color);
+	background: var(--purple-color);
 	border-radius: 10px;
 	text-transform: uppercase;
 	outline: none;
@@ -133,17 +133,17 @@
 }
 
 .hype__link-img:hover {
-	color: rgba(108, 2, 135, 1);
-	background-color: rgba(255, 255, 255, 1);
+	color: var(--purple-color);
+	background-color: var(--main-color);
 	border-radius: 50%;
 } 
 
 .hype__link-img:active {
-	color: rgba(255, 255, 255, 1);
-	background-color: rgba(205, 6, 255, 1);
+	color: 	var(--main-color);
+	background-color: var(--hover-color);
 	border-radius: 50%;
 } 
 
 .hype__link-img:focus {
-	outline: 1px solid rgba(205, 6, 255, 1);
+	outline: 1px solid var(--hover-color);
 } 

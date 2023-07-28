@@ -12,7 +12,7 @@
 	font-weight: 700;
 	font-size: 40px;
 	line-height: 50px;
-	color: #ffffff;
+	color: var(--main-color);
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -22,35 +22,35 @@
 	align-items: center;
 	padding: 30px 70px;
 	color: #1c1a1a;
-	background-color: #fff;
+	background-color: var(--main-color);
 	transition-duration: 3s, .5s;
 	transition-property: color, background-color;
 	transition-timing-function: ease-in-out;
 }
 
 .list__item-element:nth-child(2n) {
-	color: #fff;
+	color: var(--main-color);
 	background-color: #440f51;
 }
 
 .purple:hover {
-	color: rgba(108, 2, 135, 1);
-	background-color: rgba(255, 255, 255, 1);
+	color: var(--purple-color);
+	background-color: var(--main-color);
 	/* border-radius: 50%; */
 }
 
 .white:hover {
-	color: rgba(255, 255, 255, 1);
-	background-color: rgba(108, 2, 135, 1);
+	color: var(--main-color);
+	background-color: var(--purple-color);;
 }
 
 .white:active {
-	color: rgba(255, 255, 255, 1);
+	color: var(--main-color);
 	background-color: transparent;
 }
 
 .purple:active {
-	color: rgba(255, 255, 255, 1);
+	color: var(--main-color);
 	background-color: transparent;
 }
 
