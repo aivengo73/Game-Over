@@ -1,6 +1,6 @@
 /* !! ================ section hype =============*/
 
-.hype {
+.hype {display: none;
 	padding-top: 25px;
 	position: relative;
 	height: 822px;
@@ -42,9 +42,8 @@
 }
 
 .hype__content-top {
-	height: 174px;
-	gap: 30px;
 	margin-bottom: 130px;
+	gap: 40px;
 }
 
 .hype__content-top-left,
@@ -99,7 +98,7 @@
 	outline: none;
 	opacity: 0.8;
 	cursor: pointer;
-	transition-duration: .4s;
+	transition-duration: 0.4s;
 	transition-property: background-color;
 	transition-timing-function: ease-in-out;
 }
@@ -127,7 +126,7 @@
 	top: 74%;
 	left: 49%;
 	z-index: 1;
-	transition-duration: .4s, .2s;
+	transition-duration: 0.4s, 0.2s;
 	transition-property: color, background-color;
 	transition-timing-function: ease-in-out;
 }
@@ -136,14 +135,316 @@
 	color: var(--purple-color);
 	background-color: var(--main-color);
 	border-radius: 50%;
-} 
+}
 
 .hype__link-img:active {
-	color: 	var(--main-color);
+	color: var(--main-color);
 	background-color: var(--hover-color);
 	border-radius: 50%;
-} 
+}
 
 .hype__link-img:focus {
 	outline: 1px solid var(--hover-color);
-} 
+}
+
+/* !!  @media  1200px  */
+
+@media screen and (max-width: 1200px) {
+	
+.container {
+		padding-left: 95px;
+		padding-right: 95px;
+		max-width: 1232px;
+}
+
+.hype {
+
+	height: 783px;
+
+}
+	.hype::after {
+		left: 48.2%;
+		top: 11.5%;
+		background-size: 564px 641px;
+		width: 564px;
+		height: 641px;
+	}
+	.hype__title {
+		font-size: calc(35px + 115 * (100vw / 1440));
+
+		line-height: 100%;
+		letter-spacing: -0.1em;
+	}
+	.hype__text {
+		font-size: calc(10px + 18 * (100vw / 1440));
+		line-height: 50px;
+	}
+
+	
+.hype__content-top {
+	margin-bottom: 80px;
+	gap: 30px;
+}
+
+	.top-left-paragraph {
+		font-size: calc(26px + 74 * (100vw / 1440));
+	}
+
+	.top-right-paragraph {
+		font-size: calc(22px + 53 * (100vw / 1440));
+	}
+	.top-left-text,
+	.top-right-text {
+		font-size: calc(10px + 20 * (100vw / 1440));
+	}
+	.hype__content-button {
+		padding: 21px 60px;
+		font-size: calc(10px + 16 * (100vw / 1440));
+	}
+	.hype__link-img {
+		width: 65px;
+		height: 65px;
+	}
+}
+
+/* !!  @media  1024px  */
+
+@media screen and (max-width: 1024px) {
+	.hype {
+		padding-top: 15px;
+		height: 640px;
+		padding-bottom: 41.5px;
+	}
+
+	.hype::after {
+		width: 453px;
+		height: 520px;
+		left: 50%;
+		top: 12.1%;
+		background-image: url("/css/hype/img/img1024/Слой1024.png");
+		background-size: 453px 520px;
+		object-fit: contain;
+	}
+
+	.hype__title {
+		font-weight: 900;
+		font-size: 120px;
+		line-height: 120px;
+		letter-spacing: -10%;
+		margin-bottom: 20px;
+	}
+
+	.hype__text {
+		padding-left: 100px;
+		margin-bottom: 30px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.hype__content-top {
+		height: 174px;
+		gap: 30px;
+		margin-bottom: 80px;
+	}
+
+	.top-left-paragraph {
+		font-size: 80px;
+		line-height: 112.81px;
+	}
+
+	.top-right-paragraph {
+		font-size: 60px;
+		line-height: 84.61px;
+	}
+
+	.top-left-text,
+	.top-right-text {
+		font-size: 26px;
+		line-height: 29.9px;
+	}
+
+	.top-left-text {
+		max-width: 168px;
+		min-height: 60px;
+	}
+	.hype__content-top-right {
+		max-width: 140px;
+		min-height: 145px;
+	}
+
+	.hype__content-button {
+		padding: 17px 48px;
+		font-size: 22px;
+	}
+
+	.hype__link-img {
+		position: absolute;
+		top: 74.5%;
+		left: 48%;
+		width: 67px;
+		height: 67px;
+
+		z-index: 1;
+		transition-duration: 0.4s, 0.2s;
+		transition-property: color, background-color;
+		transition-timing-function: ease-in-out;
+	}
+}
+
+/* !!  @media  768px  */
+
+@media screen and (max-width: 768px) {
+	.hype {
+		padding-top: 15px;
+		max-width: 688px;
+		min-height: 537px;
+		padding-bottom: 40px;
+	}
+
+	.hype::after {
+		width: 409px;
+		height: 479px;
+		left: 46.8%;
+		top: 10.9%;
+		background-image: url("/css/hype/img/img768/Слой768.png");
+		background-size: 409px 479px;
+	}
+
+	.hype__title {
+		font-size: 86px;
+		line-height: 86px;
+		margin-bottom: 20px;
+	}
+
+	.hype__text {
+		padding-left: 70px;
+		margin-bottom: 50px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.hype__content-top {
+		align-items: self-end;
+		margin-bottom: 75px;
+		width: 223px;
+		height: 132px;
+	}
+
+	.top-left-paragraph {
+		font-size: 50px;
+		line-height: 70.51px;
+	}
+
+	.top-right-paragraph {
+		font-size: 40px;
+		line-height: 56.41px;
+	}
+
+	.top-left-text,
+	.top-right-text {
+		font-size: 16px;
+		line-height: 110%;
+	}
+
+	.top-left-text {
+		width: 103px;
+	}
+
+	.hype__content-top-right {
+		justify-content: center;
+		width: 89px;
+	}
+
+	.hype__content-button {
+		padding: 11px 35px;
+		font-size: 16px;
+		line-height: 24px;
+		border-radius: 4px;
+	}
+
+	.hype__link-img {
+		display: none;
+		top: 74%;
+		left: 49%;
+		z-index: 1;
+	}
+}
+
+/* !!  @media  320px  */
+
+@media screen and (max-width: 320px) {
+	.hype {
+		padding-top: 10px;
+		padding-bottom: 23px;
+		width: 280px;
+		height: 204px;
+	}
+
+	.hype::after {
+		width: 161px;
+		height: 179px;
+		left: 48.2%;
+		top: 9.2%;
+		background-image: url("/css/hype/img/img320/Слой320.png");
+		background-size: 161px 179px;
+	}
+
+	.hype__title {
+		width: 212px;
+		height: 38px;
+		font-size: 34px;
+		line-height: -8%;
+		margin-bottom: 25px;
+	}
+	.hype__text {
+		padding-left: 20px;
+		margin-bottom: 10px;
+		font-size: 10px;
+		line-height: 14px;
+	}
+
+	.hype__content-top {
+		align-items: flex-end;
+		justify-content: start;
+		margin-bottom: -18px;
+		gap: 10px;
+		width: 142px;
+		height: 100px;
+	}
+
+	.hype__content-top-right {
+		justify-content: center;
+		width: 89px;
+	}
+
+	.top-left-paragraph {
+		font-size: 26px;
+		height: 57px;
+		/* line-height: 70.51px; */
+	}
+	.top-right-paragraph {
+		font-size: 22px;
+		height: 40px;
+		line-height: 56.41px;
+	}
+	.top-left-text,
+	.top-right-text {
+		font-size: 10px;
+		line-height: 110%;
+	}
+	.top-left-text {
+		width: 65px;
+		height: 22px;
+	}
+
+	.top-right-text {
+		width: 54px;
+	}
+
+	.hype__content-button {
+		padding: 8px 13px;
+		font-size: 10px;
+		line-height: 12px;
+		border-radius: 4px;
+	}
+}

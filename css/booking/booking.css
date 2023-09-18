@@ -1,6 +1,6 @@
 /* !! ============= section booking ============ */
 
-.booking {
+.booking {display: none;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background: #440f51;
@@ -39,7 +39,7 @@
 	font-weight: 700;
 	line-height: 40px;
 	color: #000000;
-	background: var(--main-color);;
+	background: var(--main-color);
 	border-radius: 8px;
 	text-transform: uppercase;
 	outline: none;

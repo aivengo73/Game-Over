@@ -1,6 +1,6 @@
 /* !! ================ footer ================ */
 
-footer {
+footer {display: none;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background-image: linear-gradient(rgba(27, 26, 27, 1), rgba(55, 10, 55, 1));
