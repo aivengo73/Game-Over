@@ -1,9 +1,9 @@
 /* !! =============== social ================= */
 
-.footer__social {display: none;
+.footer__social {
 	display: flex;
 	align-items: center;
-	display: none;
+	
 }
 
 .social-list {
@@ -37,3 +37,24 @@
 .link:active {
 	color: #840aa3;
 }
+
+/* !!  @media  1024px  */
+
+@media screen and (max-width: 1024px) {
+
+	.social-list {
+		width: 40px;
+		height: 40px;
+		margin-right: 26px;
+	}
+}
+
+/* !!  @media  768px  */
+
+@media screen and (max-width: 768px) {
+	.footer__social {
+		display: flex;
+		justify-content: center;
+	}
+}
+

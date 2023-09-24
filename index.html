@@ -76,7 +76,7 @@
 						</div>
 					</div>
 					<button class="hype__content-button" type="submit">Забронировать</button>
-					<a class="hype__link" href="#">
+					<a class="hype__link" href="#ad">
 						<svg class="hype__link-img" width="97" height="97" viewBox="0 0 97 97" fill="none"
 							xmlns="http://www.w3.org/2000/svg">
 							<circle cx="48.5" cy="48.5" r="48" stroke="white" />
@@ -94,7 +94,7 @@
 
 		<section class="ad">
 			<div class="container">
-				<h2 class="ad__title">У нас есть всё для классного отдыха с друзьями!</h2>
+				<h2 id="ad" class="ad__title">У нас есть всё для классного отдыха с друзьями!</h2>
 				<div class="ad__list d-grid">
 
 					<!-- 1 -->
@@ -137,23 +137,27 @@
 
 		<section class="halls">
 			<div class="container">
-				<h2 class="halls__title" id="halls">наши залы</h2>
+				<h2 id="halls" class="halls__title" >наши залы</h2>
 				<ul class="halls__list d-grid">
 
 					<li class="list-item one">
-						<p class="list-item-elem">80’s vibes</p>
+						<a class="list-item-elem" href="vibes/vibes.html">80’s vibes</a>
+						
 					</li>
 
 					<li class="list-item two">
-						<p class="list-item-elem">Star wars</p>
+						<a class="list-item-elem" href="star-wars/wars.html">Star wars</a>
+						
 					</li>
 
 					<li class="list-item three">
-						<p class="list-item-elem">wild west</p>
+						<a class="list-item-elem" href="west/west.html">wild west</a>
+				
 					</li>
 
 					<li class="list-item four">
-						<p class="list-item-elem">neon style</p>
+						<a class="list-item-elem" href="neon/neon.html">neon style</a>
+						
 					</li>
 
 				</ul>
@@ -165,7 +169,7 @@
 		<section class="booking">
 			<div class="container">
 				<div class="booking__wrap">
-					<h2 class="booking__wrap-title" id="reserve">Забронировать зал просто</h2>
+					<h2 id="reserve" class="booking__wrap-title" >Забронировать зал просто</h2>
 
 					<form class="booking__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
 						<h3 class="booking__wrap-halls">Выбери зал</h3>
@@ -331,7 +335,7 @@
 
 		<section class="about-us">
 			<div class="container">
-				<h2 class="about-us__title" id="about">О НАС</h2>
+				<h2 id="about" class="about-us__title">О НАС</h2>
 
 				<div class="wrap d-grid">
 
@@ -393,7 +397,7 @@
 		<section class="feedback">
 			<div class="container">
 
-				<h2 class="feedback__title" id="reviews">ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
+				<h2 id="reviews" class="feedback__title" >ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
 
 				<div class="feedback__list d-grid">
 
@@ -489,7 +493,7 @@
 						</a>
 					</li>
 
-					<li class="list__item-element white">
+					<li class="list__item-element white ultimate">
 						<p class="list__item-text">Какая комната самая популярная?</p>
 						<a class="list__item-svg-purple" href="#">
 							<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -508,7 +512,7 @@
 
 		<footer class="footer">
 			<div class="container">
-				<h2 class="footer__title" id="contact">КОНТАКТЫ</h2>
+				<h2 id="contact" class="footer__title" >КОНТАКТЫ</h2>
 				<div class="footer__grup d-flex flex-sb">
 					<div class="footer__left">
 						<address class="footer__link">
@@ -615,8 +619,9 @@
 							</li>
 						</ul>
 					</div>
-					<img class="footer__right" src="css/footer/img/map.png" width="680" height="274"
-						alt="Карта как добраться до адресата">
+					<div class="footer__right"></div>
+					<!-- <img class="footer__right" src="css/footer/img/map.png" width="680" height="274"
+						alt="Карта как добраться до адресата"> -->
 				</div>
 
 				<div class="footer__bottom d-flex flex-sb">
