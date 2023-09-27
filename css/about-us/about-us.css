@@ -1,6 +1,6 @@
 /* !! ============ section about-us ============= */
 
-.about-us {display: none;
+.about-us {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -205,7 +205,7 @@
 
 @media screen and (max-width: 1024px) {
 	.about-us {
-		padding-top: 35px;
+		padding-top: 70px;
 		padding-bottom: 35px;
 	}
 
@@ -320,9 +320,9 @@
 
 @media screen and (max-width: 768px) {
 	.about-us {
-		padding-top: 30px;
+		padding-top: 60px;
 		padding-bottom: 30px;
-		max-width: 688px;
+		max-width: 768px;
 		min-height: 660px;
 	}
 
@@ -334,7 +334,7 @@
 
 	.wrap {
 		max-width: 688px;
-		height: 660px;
+		height: 575px;
 		display: grid;
 		grid-template-columns: 1.37fr 1fr;
 		grid-template-rows: 380px 90px 78px;
@@ -342,7 +342,7 @@
 			"wrap-left wrap-right-text"
 			"bottom bottom"
 			"blockquote-item blockquote-item";
-		gap: 16px 28px;
+		gap: 12px 28px;
 	}
 
 	.wrap-right-text {
@@ -468,26 +468,26 @@
 
 @media screen and (max-width: 320px) {
 	.about-us {
-		padding-top: 15px;
+		padding-top: 30px;
 		padding-bottom: 15px;
-		max-width: 280px;
+		max-width: 320px;
 		min-height: 620px;
 	}
 	.about-us__title {
-		margin-bottom: 15px;
+		margin-bottom: 14px;
 		font-size: 14px;
 		line-height: 18px;
 	}
 	.about-us__text {
 		max-width: 280px;
-		margin-bottom: 26px;
+		margin-bottom: 0;
 		font-size: 12px;
 		line-height: 16px;
 	}
 
 	.wrap {
 		max-width: 280px;
-		min-height: 587px;
+		min-height: 574px;
 
 		grid-template-columns: 1fr;
 		grid-template-rows: 133px 280px 73px 60px;
@@ -565,7 +565,7 @@
 	.blockquote-text {
 		grid-area: blockquote-text;
 		max-width: 280px;
-		height: 95px;
+		height: 74px;
 		padding-left: 15px;
 		padding-top: 0;
 		font-weight: 400;

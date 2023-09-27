@@ -1,6 +1,6 @@
 /* !! ================== section ad ================ */
 
-.ad {display: none;
+.ad {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	min-height: 708px;
@@ -125,14 +125,21 @@
 @media screen and (max-width: 1024px) {
 	/* font-size: calc(10px + 16 * (100vw / 1440)); */
 
+	.ad {
+		padding-top: 42px;
+		padding-bottom: 35px;
+		min-height: 630px;
+	}
 	.ad__list {
 		max-width: 904px;
-		height: 642px;
+		height: 435px;
 		grid-template-rows: repeat(2, 202px);
 		grid-gap: 30px 22px;
 	}
 
 	.ad__title {
+		margin: auto;
+		width: 550px;
 		font-size: 30px;
 		line-height: 40px;
 		margin-bottom: 36px;
@@ -197,14 +204,14 @@
 
 @media screen and (max-width: 768px) {
 	.ad {
-		padding-top: 35px;
+		padding-top: 40px;
 		padding-bottom: 30px;
-		min-height: 688px;
+	
 	}
 
 	.ad__list {
 		max-width: 688px;
-		height: 742px;
+		height: 642px;
 		grid-template-columns: repeat(2, 1fr);
 		grid-template-rows: repeat(3, 200px);
 		gap: 20px;
@@ -232,7 +239,7 @@
 	}
 
 	.ad__list-one {
-	background: url("/../css/ad/img/img768/ad1-768.jpg");
+		background: url("/../css/ad/img/img768/ad1-768.jpg");
 	}
 
 	.ad__list-two {
@@ -248,7 +255,7 @@
 	}
 
 	.ad__list-five {
-	background: url("/../css/ad/img/img768/ad5-768.jpg");
+		background: url("/../css/ad/img/img768/ad5-768.jpg");
 	}
 
 	.ad__list-six {
@@ -262,15 +269,18 @@
 	.ad {
 		padding-top: 23px;
 		padding-bottom: 15px;
+		width: 320px;
 		min-height: 296px;
 	}
 	.ad__list {
 		max-width: 280px;
-		height: 296px;
+		height: 246px;
 		grid-template-rows: repeat(3, 75px);
 		gap: 10px;
 	}
 	.ad__title {
+		width: 280px;
+		height: 36px;
 		font-size: 14px;
 		line-height: 18px;
 		margin-bottom: 15px;
@@ -282,7 +292,7 @@
 	}
 
 	.element-text,
-	.text-five  {
+	.text-five {
 		max-width: 115px;
 		padding-top: 30px;
 		padding-left: 10px;
@@ -291,26 +301,25 @@
 	}
 	.ad__list-one {
 		background: url("/../css/ad/img/img320/ad1-320.jpg");
-		}
-	
-		.ad__list-two {
-			background: url("/../css/ad/img/img320/ad2-320.jpg");
-		}
-	
-		.ad__list-three {
-			background: url("/../css/ad/img/img320/ad3-320.jpg");
-		}
-	
-		.ad__list-four {
-			background: url("/../css/ad/img/img320/ad4-320.jpg");
-		}
-	
-		.ad__list-five {
-		background: url("/../css/ad/img/img320/ad5-320.jpg");
-		}
-	
-		.ad__list-six {
-			background: url("/../css/ad/img/img320/ad6-320.jpg");
-		}
+	}
 
+	.ad__list-two {
+		background: url("/../css/ad/img/img320/ad2-320.jpg");
+	}
+
+	.ad__list-three {
+		background: url("/../css/ad/img/img320/ad3-320.jpg");
+	}
+
+	.ad__list-four {
+		background: url("/../css/ad/img/img320/ad4-320.jpg");
+	}
+
+	.ad__list-five {
+		background: url("/../css/ad/img/img320/ad5-320.jpg");
+	}
+
+	.ad__list-six {
+		background: url("/../css/ad/img/img320/ad6-320.jpg");
+	}
 }

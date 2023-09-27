@@ -1,8 +1,8 @@
 /* !! ============== section halls ============= */
 
-.halls {display: none;
+.halls {
 	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 .halls__title {
@@ -101,7 +101,7 @@
 @media screen and (max-width: 1024px) {
 	.halls {
 		padding-top: 35px;
-		padding-bottom: 35px;
+		padding-bottom: 70px;
 	}
 	.halls__title {
 		margin-bottom: 36px;

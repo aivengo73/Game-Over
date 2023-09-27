@@ -1,6 +1,6 @@
 /* !! ================ section hype =============*/
 
-.hype {display: none;
+.hype {
 	padding-top: 25px;
 	position: relative;
 	height: 822px;
@@ -296,31 +296,38 @@
 @media screen and (max-width: 768px) {
 	.hype {
 		padding-top: 15px;
-		max-width: 688px;
-		min-height: 537px;
+		width: 768px;
+		height: 584px;
 		padding-bottom: 40px;
 	}
+
 
 	.hype::after {
 		width: 409px;
 		height: 479px;
-		left: 46.8%;
+		left: 41.6%;
 		top: 10.9%;
 		background-image: url("/css/hype/img/img768/Слой768.png");
 		background-size: 409px 479px;
 	}
 
 	.hype__title {
+		width: 688px;
 		font-size: 86px;
 		line-height: 86px;
 		margin-bottom: 20px;
 	}
 
 	.hype__text {
+		width: 688px;
 		padding-left: 70px;
 		margin-bottom: 50px;
 		font-size: 18px;
 		line-height: 24px;
+	}
+
+	.hype__content {
+		width: 688px;
 	}
 
 	.hype__content-top {
@@ -376,27 +383,29 @@
 	.hype {
 		padding-top: 10px;
 		padding-bottom: 23px;
-		width: 280px;
-		height: 204px;
+		width: 320px;
+		height: 230px;
 	}
 
 	.hype::after {
 		width: 161px;
 		height: 179px;
-		left: 48.2%;
-		top: 9.2%;
+		left: 43.2%;
+		top: 12.2%;
 		background-image: url("/css/hype/img/img320/Слой320.png");
 		background-size: 161px 179px;
 	}
 
 	.hype__title {
 		width: 212px;
-		height: 38px;
-		font-size: 34px;
-		line-height: -8%;
-		margin-bottom: 25px;
+		height: 35px;
+		font-size: 35px;
+		line-height: 35px;
+		margin-bottom: 6px;
 	}
 	.hype__text {
+		width: 152px;
+		height: 14px;
 		padding-left: 20px;
 		margin-bottom: 10px;
 		font-size: 10px;

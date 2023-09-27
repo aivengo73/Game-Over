@@ -1,6 +1,6 @@
 /* !!============= section header ============ */
 
-.header {display: none;
+.header {
 	padding-top: 30px;
 	padding-bottom: 25px;
 	
@@ -207,12 +207,12 @@
 @media screen and (max-width: 320px) {
 
 	.header {
-		padding-top: 10px;
+		padding-top: 20px;
 		padding-bottom: 10px;
 	}
 
 	.header__inner {
-		max-width: 280px;
+		width: 280px;
 	
 	}
 

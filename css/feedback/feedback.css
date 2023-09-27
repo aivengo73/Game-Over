@@ -1,7 +1,7 @@
 /* !! ======== section feedback ============= */
 
 
-.feedback { display: none;
+.feedback {
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -20,7 +20,7 @@
 
 .feedback__list {
 	max-width: 1180px;
-	min-height: 1153px;
+	min-height: 1097px;
 	padding-left: 100px;
 	padding-right: 100px;
 	grid-template-columns: 280px 1fr;
@@ -224,7 +224,7 @@
 		padding-left: 74px;
 		padding-right: 74px;
 		max-width: 688px;
-		min-height: 697px;
+		min-height: 645px;
 		grid-template-columns: 156px 1fr;
 		grid-template-rows: repeat(3, 166px 20px);
 		gap: 17px 12px;
@@ -288,10 +288,11 @@
 	.feedback {
 		padding-top: 15px;
 		padding-bottom: 15px;
+		width: 320px;
+		min-height: 662px;
 	}
 
 	.feedback__list {
-		width: 280px;
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -307,7 +308,7 @@
 	.feedback__list {
 		display: grid;
 		max-width: 280px;
-		min-height: 662px;
+		min-height: 642px;
 		grid-template-columns: 280px;
 		grid-template-rows: repeat(3, 86px 20px 84px);
 		grid-template-areas:
