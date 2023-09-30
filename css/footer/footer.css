@@ -9,12 +9,12 @@ footer {
 .footer__title {
 	margin-bottom: 40px;
 	font-family: Arial, sans-serif;
-	font-style: normal;
-	font-weight: 700;
 	font-size: 40px;
-	line-height: 50px;
+	font-weight: 700;
 	color: var(--main-color);
+	font-style: normal;
 	text-align: center;
+	line-height: 50px;
 	text-transform: uppercase;
 }
 
@@ -29,10 +29,10 @@ footer {
 .link-email {
 	padding-left: 28px;
 	font-family: Arial, sans-serif;
-	font-style: normal;
-	font-weight: 700;
 	font-size: 24px;
+	font-weight: 700;
 	color: var(--main-color);
+	font-style: normal;
 	line-height: 28px;
 	transition-duration: 0.3s;
 	transition-property: color;
@@ -68,10 +68,10 @@ footer {
 .footer__bottom-text,
 .footer__bottom-text-left {
 	font-family: Arial, sans-serif;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
+	font-weight: 400;
 	color: var(--main-color);
+	font-style: normal;
 	line-height: 16px;
 }
 
@@ -89,10 +89,10 @@ footer {
 
 .footer__bottom-link {
 	font-family: Arial, sans-serif;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 14px;
+	font-weight: 400;
 	color: var(--main-color);
+	font-style: normal;
 	line-height: 16px;
 	transition-duration: 0.3s;
 	transition-property: color;
@@ -132,8 +132,8 @@ footer {
 	}
 	.footer__title {
 		margin-bottom: 26px;
-		font-weight: 700;
 		font-size: 30px;
+		font-weight: 700;
 		line-height: 40px;
 	}
 
@@ -158,10 +158,10 @@ footer {
 	.footer__bottom-text,
 	.footer__bottom-text-left {
 		font-family: Arial, sans-serif;
-		font-style: normal;
-		font-weight: 400;
 		font-size: 14px;
+		font-weight: 400;
 		color: var(--main-color);
+		font-style: normal;
 		line-height: 16px;
 	}
 
@@ -187,7 +187,6 @@ footer {
 	.footer__grup {
 		flex-direction: column;
 		align-items: center;
-
 		height: 635px;
 	}
 
@@ -196,13 +195,14 @@ footer {
 	}
 
 	.footer__list {
-		text-align: center;
 		margin-bottom: 38px;
+		text-align: center;
 	}
+
 	.list-link {
 		display: inline-block;
-		width: 380px;
 		margin-bottom: 27px;
+		width: 380px;
 	}
 
 	.footer__list {
@@ -219,6 +219,7 @@ footer {
 		background-repeat: no-repeat;
 		object-fit: contain;
 	}
+
 	.footer__bottom {
 		padding-top: 75px;
 	}
@@ -232,14 +233,14 @@ footer {
 		padding-bottom: 22.5px;
 	}
 
-	/* .footer__list {
-		width: 280px;
-	} */
+	.footer__list {
+		text-align: center;
+	}
 
 	.footer__title {
-		font-weight: 700;
 		margin-bottom: 12px;
 		font-size: 14px;
+		font-weight: 700;
 		line-height: 18px;
 	}
 	.link-span,
@@ -255,10 +256,10 @@ footer {
 	}
 
 	list-link-top {
-		width: 280px;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+		width: 280px;
 		margin-bottom: 10px;
 	}
 
@@ -268,6 +269,7 @@ footer {
 
 	.list-link {
 		margin-bottom: 10px;
+		width: 280px;
 	}
 
 	.list-link:last-child {
@@ -285,21 +287,23 @@ footer {
 
 	.footer__right {
 		max-width: 280px;
-		/* height: 395px; */
-		height: 202px;
+		height: 169px;
 		background-image: url("/../css/footer/img/img320/map320.png");
 	}
 
+	.footer__left {
+		width: 280px;
+	}
 	.footer__grup {
 		margin-bottom: 63px;
-		max-width: 380px;
+		max-width: 280px;
 		height: 397px;
 	}
 	.footer__bottom {
 		flex-direction: column;
 		width: 280px;
-		align-items: center;
 		height: 72px;
+		align-items: center;
 		padding-top: 0;
 	}
 

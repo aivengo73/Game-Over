@@ -8,11 +8,11 @@
 .list__title {
 	margin-bottom: 40px;
 	font-family: Arial, sans-serif;
-	font-style: normal;
-	font-weight: 700;
 	font-size: 40px;
-	line-height: 50px;
+	font-weight: 700;
 	color: var(--main-color);
+	font-style: normal;
+	line-height: 50px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -20,8 +20,8 @@
 .list__item-element {
 	display: flex;
 	align-items: center;
-	padding: 30px 70px;
 	color: #1c1a1a;
+	padding: 30px 70px;
 	background-color: var(--main-color);
 	transition-duration: 3s, 0.5s;
 	transition-property: color, background-color;
@@ -62,9 +62,9 @@
 	width: 780px;
 	margin-right: 214px;
 	font-family: "Arial", sans-serif;
-	font-style: normal;
 	font-size: 24px;
 	font-weight: 700;
+	font-style: normal;
 	line-height: 28px;
 }
 
@@ -79,18 +79,19 @@
 @media screen and (max-width: 1200px) {
 	.list__item-element {
 		display: flex;
-
 		align-items: center;
 		padding: 23px 54px;
 	}
+
 	.list__item-svg,
 	.list__item-svg-purple {
 		width: 46px;
 		height: 46px;
 	}
+
 	.list__item-text {
-		font-weight: 700;
 		margin-right: 5px;
+		font-weight: 700;
 	}
 }
 
@@ -98,16 +99,15 @@
 
 @media screen and (max-width: 1024px) {
 	.list {
-		padding-top: 35px;
-		padding-bottom: 29px;
 		height: 475px;
 		max-width: 1024px;
+		padding-top: 35px;
+		padding-bottom: 29px;
 	}
 
 	.list__title {
-		width: 904px;
-		/* margin: auto; */
 		margin-bottom: 40px;
+		width: 904px;
 		font-size: 30px;
 		line-height: 40px;
 	}
@@ -126,8 +126,8 @@
 	.purple:hover {
 		color: var(--main-color);
 		background-color: var(--purple-color);
-		/* border-radius: 50%; */
 	}
+
 	.purple:active {
 		color: var(--main-color);
 		background-color: transparent;
@@ -138,8 +138,8 @@
 	}
 
 	.list__item-text {
-		width: 745px;
 		margin-right: 68px;
+		width: 745px;
 		font-size: 20px;
 		font-weight: 700;
 		line-height: 24px;
@@ -163,14 +163,14 @@
 
 @media screen and (max-width: 768px) {
 	.list {
+		height: 460px;
 		padding-top: 30px;
 		padding-bottom: 30px;
-		height: 460px;
 	}
 
 	.list__title {
-		width: 688px;
 		margin-bottom: 30px;
+		width: 688px;
 		font-size: 24px;
 		line-height: 26px;
 	}
@@ -190,9 +190,10 @@
 	.list__item-element:not(:last-child) {
 		margin-bottom: 16px;
 	}
+
 	.list__item-text {
-		width: 407px;
 		margin-right: 116px;
+		width: 407px;
 		font-size: 18px;
 		line-height: 24px;
 	}
@@ -202,6 +203,7 @@
 		width: 46px;
 		height: 46px;
 	}
+
 	.ultimate {
 		display: none;
 	}
@@ -217,7 +219,6 @@
 	.list {
 		width: 320px;
 		height: 277px;
-
 		padding-top: 15px;
 		padding-bottom: 15px;
 	}
@@ -234,9 +235,9 @@
 		height: 214px;
 	}
 	.list__item-element {
+		display: flex;
 		width: 280px;
 		height: 46px;
-		display: flex;
 		align-items: center;
 		padding: 7px 10px;
 	}
@@ -244,10 +245,10 @@
 	.list__item-element:not(:last-child) {
 		margin-bottom: 10px;
 	}
-	.list__item-text {
-		width: 227px;
 
+	.list__item-text {
 		margin-right: 0;
+		width: 227px;
 		font-size: 12px;
 		line-height: 16px;
 	}
@@ -267,25 +268,3 @@
 	}
 }
 
-/* .item:nth-child(odd)::after {
-	content: "";
-	position: absolute;
-	
-	left: 1094px;
-	bottom: 27px;
-	background-image: url("/css/list/img/open-purple.svg");
-	background-repeat: no-repeat;
-	background-size: contain;
-} */
-
-/* .purple:nth-child(even)::after {
-	content: "";
-	position: absolute;
-	width: 35px;
-	height: 35px;
-	left: 1094px;
-	bottom: 27px;
-	background-image: url("/css/list/img/open.svg");
-	background-size: contain;
-	background-repeat: no-repeat;
-} */

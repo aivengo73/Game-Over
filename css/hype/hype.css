@@ -1,19 +1,19 @@
 /* !! ================ section hype =============*/
 
 .hype {
-	padding-top: 25px;
 	position: relative;
 	height: 822px;
+	padding-top: 25px;
 	padding-bottom: 50px;
 }
 
 .hype::after {
 	content: "";
 	position: absolute;
-	width: 672px;
-	height: 675px;
 	left: 47.4%;
 	top: 11.9%;
+	width: 672px;
+	height: 675px;
 	background-image: url("/css/hype/img/Слой.png");
 	background-size: 675px 672px;
 	background-repeat: no-repeat;
@@ -22,22 +22,22 @@
 
 .hype__title {
 	font-family: "Arial", sans-serif;
-	font-style: normal;
-	font-weight: 900;
 	font-size: 150px;
+	font-weight: 900;
 	color: var(--main-color);
+	font-style: normal;
 	line-height: 100%;
 	letter-spacing: -0.1em;
 }
 
 .hype__text {
-	padding-left: 100px;
 	margin-bottom: 30px;
+	padding-left: 100px;
 	font-family: "Arial", sans-serif;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 28px;
+	font-weight: 400;
 	color: var(--main-color);
+	font-style: normal;
 	line-height: 50px;
 }
 
@@ -55,27 +55,27 @@
 
 .top-left-paragraph {
 	font-family: "Arial", sans-serif;
-	font-weight: 900;
 	font-size: 100px;
 	color: var(--hover-color);
+	font-weight: 900;
 	line-height: 141.02px;
 }
 
 .top-right-paragraph {
 	font-family: "Arial", sans-serif;
-	font-weight: 900;
 	font-size: 75px;
 	color: var(--hover-color);
+	font-weight: 900;
 	line-height: 105.76px;
 }
 
 .top-left-text,
 .top-right-text {
 	font-family: "Arial", sans-serif;
-	font-style: normal;
-	font-weight: 400;
 	font-size: 30px;
+	font-weight: 400;
 	color: var(--main-color);
+	font-style: normal;
 	line-height: auto;
 }
 
@@ -88,10 +88,10 @@
 }
 
 .hype__content-button {
-	padding: 25px 69px;
 	font-size: 26px;
 	font-weight: 700;
 	color: var(--main-color);
+	padding: 25px 69px;
 	background: var(--purple-color);
 	border-radius: 10px;
 	text-transform: uppercase;
@@ -103,14 +103,8 @@
 	transition-timing-function: ease-in-out;
 }
 
-/* .hype__content-button {
-	transition-duration: 5s;
-	transition-property: all;
-} */
-
 .hype__content-button:hover {
 	background-color: rgb(37, 10, 44);
-	/* width: 40%; */
 }
 
 .hype__content-button:active {
@@ -150,41 +144,38 @@
 /* !!  @media  1200px  */
 
 @media screen and (max-width: 1200px) {
-	
-.container {
+	.container {
 		padding-left: 95px;
 		padding-right: 95px;
 		max-width: 1232px;
-}
+	}
 
-.hype {
+	.hype {
+		height: 783px;
+	}
 
-	height: 783px;
-
-}
 	.hype::after {
 		left: 48.2%;
 		top: 11.5%;
-		background-size: 564px 641px;
 		width: 564px;
 		height: 641px;
+		background-size: 564px 641px;
 	}
 	.hype__title {
 		font-size: calc(35px + 115 * (100vw / 1440));
-
 		line-height: 100%;
 		letter-spacing: -0.1em;
 	}
+
 	.hype__text {
 		font-size: calc(10px + 18 * (100vw / 1440));
 		line-height: 50px;
 	}
 
-	
-.hype__content-top {
-	margin-bottom: 80px;
-	gap: 30px;
-}
+	.hype__content-top {
+		margin-bottom: 80px;
+		gap: 30px;
+	}
 
 	.top-left-paragraph {
 		font-size: calc(26px + 74 * (100vw / 1440));
@@ -193,14 +184,17 @@
 	.top-right-paragraph {
 		font-size: calc(22px + 53 * (100vw / 1440));
 	}
+
 	.top-left-text,
 	.top-right-text {
 		font-size: calc(10px + 20 * (100vw / 1440));
 	}
+
 	.hype__content-button {
-		padding: 21px 60px;
 		font-size: calc(10px + 16 * (100vw / 1440));
+		padding: 21px 60px;
 	}
+
 	.hype__link-img {
 		width: 65px;
 		height: 65px;
@@ -211,8 +205,8 @@
 
 @media screen and (max-width: 1024px) {
 	.hype {
-		padding-top: 15px;
 		height: 640px;
+		padding-top: 15px;
 		padding-bottom: 41.5px;
 	}
 
@@ -227,24 +221,24 @@
 	}
 
 	.hype__title {
+		margin-bottom: 20px;
 		font-weight: 900;
 		font-size: 120px;
 		line-height: 120px;
 		letter-spacing: -10%;
-		margin-bottom: 20px;
 	}
 
 	.hype__text {
-		padding-left: 100px;
 		margin-bottom: 30px;
+		padding-left: 100px;
 		font-size: 22px;
 		line-height: 30px;
 	}
 
 	.hype__content-top {
+		margin-bottom: 80px;
 		height: 174px;
 		gap: 30px;
-		margin-bottom: 80px;
 	}
 
 	.top-left-paragraph {
@@ -267,6 +261,7 @@
 		max-width: 168px;
 		min-height: 60px;
 	}
+
 	.hype__content-top-right {
 		max-width: 140px;
 		min-height: 145px;
@@ -283,7 +278,6 @@
 		left: 48%;
 		width: 67px;
 		height: 67px;
-
 		z-index: 1;
 		transition-duration: 0.4s, 0.2s;
 		transition-property: color, background-color;
@@ -291,37 +285,37 @@
 	}
 }
 
+
 /* !!  @media  768px  */
 
 @media screen and (max-width: 768px) {
 	.hype {
-		padding-top: 15px;
 		width: 768px;
 		height: 584px;
+		padding-top: 15px;
 		padding-bottom: 40px;
 	}
 
-
 	.hype::after {
-		width: 409px;
-		height: 479px;
 		left: 41.6%;
 		top: 10.9%;
+		width: 409px;
+		height: 479px;
 		background-image: url("/css/hype/img/img768/Слой768.png");
 		background-size: 409px 479px;
 	}
 
 	.hype__title {
+		margin-bottom: 20px;
 		width: 688px;
 		font-size: 86px;
 		line-height: 86px;
-		margin-bottom: 20px;
 	}
 
 	.hype__text {
-		width: 688px;
-		padding-left: 70px;
 		margin-bottom: 50px;
+		padding-left: 70px;
+		width: 688px;
 		font-size: 18px;
 		line-height: 24px;
 	}
@@ -331,8 +325,8 @@
 	}
 
 	.hype__content-top {
-		align-items: self-end;
 		margin-bottom: 75px;
+		align-items: self-end;
 		width: 223px;
 		height: 132px;
 	}
@@ -363,8 +357,8 @@
 	}
 
 	.hype__content-button {
-		padding: 11px 35px;
 		font-size: 16px;
+		padding: 11px 35px;
 		line-height: 24px;
 		border-radius: 4px;
 	}
@@ -381,44 +375,49 @@
 
 @media screen and (max-width: 320px) {
 	.hype {
-		padding-top: 10px;
-		padding-bottom: 23px;
 		width: 320px;
 		height: 230px;
+		padding-top: 10px;
+		padding-bottom: 23px;
 	}
 
 	.hype::after {
-		width: 161px;
-		height: 179px;
 		left: 43.2%;
 		top: 12.2%;
+		width: 161px;
+		height: 179px;
 		background-image: url("/css/hype/img/img320/Слой320.png");
 		background-size: 161px 179px;
 	}
 
+	.hype__content {
+		width: 280px;
+	}
+
 	.hype__title {
+		margin-bottom: 6px;
 		width: 212px;
 		height: 35px;
 		font-size: 35px;
 		line-height: 35px;
-		margin-bottom: 6px;
 	}
+
 	.hype__text {
+		margin-bottom: 10px;
+		padding-left: 20px;
 		width: 152px;
 		height: 14px;
-		padding-left: 20px;
-		margin-bottom: 10px;
 		font-size: 10px;
 		line-height: 14px;
 	}
 
 	.hype__content-top {
+		margin-bottom: -18px;
 		align-items: flex-end;
 		justify-content: start;
-		margin-bottom: -18px;
-		gap: 10px;
 		width: 142px;
 		height: 100px;
+		gap: 10px;
 	}
 
 	.hype__content-top-right {
@@ -429,18 +428,20 @@
 	.top-left-paragraph {
 		font-size: 26px;
 		height: 57px;
-		/* line-height: 70.51px; */
 	}
+
 	.top-right-paragraph {
 		font-size: 22px;
 		height: 40px;
 		line-height: 56.41px;
 	}
+
 	.top-left-text,
 	.top-right-text {
 		font-size: 10px;
 		line-height: 110%;
 	}
+
 	.top-left-text {
 		width: 65px;
 		height: 22px;
@@ -451,8 +452,8 @@
 	}
 
 	.hype__content-button {
-		padding: 8px 13px;
 		font-size: 10px;
+		padding: 8px 13px;
 		line-height: 12px;
 		border-radius: 4px;
 	}

@@ -183,7 +183,7 @@ body {
 .west__link {
 	position: absolute;
 	top: 5%;
-	left: 19%;
+	left: 9%;
 }
 
 .west__text {
@@ -196,6 +196,7 @@ body {
 	line-height: 80px;
 	font-style: normal;
 }
+
 .article__text {
 	margin: 0 auto;
 	text-align: center;
@@ -234,6 +235,7 @@ text-align: center;
 	font-weight: 700;
 	line-height: 50px;
 	font-style: normal;
+	text-transform: uppercase;
 }
 
 .room__wraper {
@@ -273,7 +275,7 @@ text-align: center;
 
 .apartment__title {
 	text-align: center;
-	max-width: 980px;
+	max-width: 1180px;
 	min-height: 50px;
 	font-family: Arial, sans-serif;
 	font-size: 40px;
@@ -281,6 +283,7 @@ text-align: center;
 	font-weight: 700;
 	line-height: 50px;
 	margin-bottom: 40px;
+	text-transform: uppercase;
 }
 
 .apartment__item {
@@ -329,10 +332,10 @@ align-items: center;
 }
 
 /* footer */
-.footer__right {
+/* .footer__right {
 	width: 670px;
 	height: 274px;
 	background-image: url("vibes_img/map.png");
 	background-repeat: no-repeat;
 	object-fit: cover;
-}
+} */

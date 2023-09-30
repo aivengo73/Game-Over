@@ -124,7 +124,6 @@
 	position: relative;
 	grid-area: blockquote-text;
 	max-width: 469px;
-	/* margin-bottom: 40px; */
 	padding-top: 5px;
 	padding-left: 30px;
 	font-family: "Arial", sans-serif;
@@ -155,10 +154,10 @@
 .blockquote-text::after {
 	content: "";
 	position: absolute;
-	width: 24px;
-	height: 20px;
 	top: 70.5%;
 	left: 77.5%;
+	width: 24px;
+	height: 20px;
 	background-image: url("/css/about-us/img/“.png");
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -224,8 +223,6 @@
 	.wrap-left {
 		max-width: 420.46px;
 		min-height: 417.66px;
-
-		/* grid-template-columns: 0.76fr 0.5fr 0.18fr 0.1fr 0,9fr; */
 		grid-template-rows: 144.23px 156.97px 116.33px;
 	}
 
@@ -283,18 +280,16 @@
 
 	.blockquote-text {
 		max-width: 444px;
-
 		padding-left: 30px;
 		font-size: 30px;
 		line-height: 36px;
 	}
 
 	.blockquote-text::after {
+		top: 25.5%;
+		left: 61%;
 		width: 15px;
 		height: 36px;
-		top: 25.5%;
-
-		left: 61%;
 	}
 
 	.blockquote-text::before {
@@ -305,10 +300,11 @@
 
 	.blockquote-item-img {
 		margin-right: 30px;
-		border-radius: 50%;
 		width: 70px;
 		height: 70px;
+		border-radius: 50%;
 	}
+
 	.blockquote-item-text {
 		max-width: 225px;
 		font-size: 18px;
@@ -320,10 +316,10 @@
 
 @media screen and (max-width: 768px) {
 	.about-us {
-		padding-top: 60px;
-		padding-bottom: 30px;
 		max-width: 768px;
 		min-height: 660px;
+		padding-top: 60px;
+		padding-bottom: 30px;
 	}
 
 	.about-us__title {
@@ -348,9 +344,9 @@
 	.wrap-right-text {
 		grid-area: wrap-right-text;
 		align-self: center;
+		margin-bottom: 16px;
 		max-width: 278px;
 		height: 247px;
-		margin-bottom: 16px;
 		font-family: "Arial", sans-serif;
 		font-style: normal;
 		font-weight: 400;
@@ -424,29 +420,27 @@
 		padding-top: 14px;
 		font-weight: 400;
 		font-size: 32px;
-
 		line-height: 36px;
 	}
 
 	.blockquote-text::before {
-		width: 16px;
-		height: 36px;
 		left: 0;
 		top: 17%;
+		width: 16px;
+		height: 36px;
 	}
 
 	.blockquote-text::after {
-		width: 16px;
-		height: 36px;
 		top: 0.1%;
 		left: 80%;
+		width: 16px;
+		height: 36px;
 	}
 
 	.blockquote-item {
 		grid-area: blockquote-item;
 		max-width: 688px;
 		height: 78px;
-
 		background-repeat: no-repeat;
 		object-fit: cover;
 	}
@@ -488,24 +482,22 @@
 	.wrap {
 		max-width: 280px;
 		min-height: 574px;
-
 		grid-template-columns: 1fr;
 		grid-template-rows: 133px 280px 73px 60px;
 		grid-template-areas:
-		"wrap-right-text"
+			"wrap-right-text"
 			"wrap-left "
 			"blockquote-text"
 			"blockquote-item";
-	row-gap: 9px;
+		row-gap: 9px;
 	}
 
 	.wrap-right-text {
 		grid-area: wrap-right-text;
 		align-self: center;
+		margin-bottom: 0;
 		max-width: 280px;
 		height: 127px;
-		margin-bottom: 0;
-	
 	}
 
 	.wrap-left {
@@ -575,35 +567,33 @@
 	}
 
 	.blockquote-text::before {
-		width: 11px;
-		height: 50px;
 		left: 0;
 		top: 1%;
+		width: 11px;
+		height: 50px;
 	}
 
 	.blockquote-text::after {
-		width: 11px;
-		height: 50px;
 		top: -21.9%;
 		left: 55%;
+		width: 11px;
+		height: 50px;
 	}
 	.text-top {
 		margin-bottom: 15px;
 	}
-	
+
 	.blockquote-item {
-		
 		grid-area: blockquote-item;
 		max-width: 280px;
-	
 		height: 56px;
 	}
 
 	.blockquote-item-img {
 		margin-right: 11px;
-		border-radius: 50%;
 		width: 56px;
 		height: 56px;
+		border-radius: 50%;
 	}
 
 	.blockquote-item-text {

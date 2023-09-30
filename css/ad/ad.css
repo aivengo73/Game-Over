@@ -43,8 +43,8 @@
 	font-family: "Arial", sans-serif;
 	font-weight: 400;
 	font-size: 20px;
-	font-style: normal;
 	color: var(--main-color);
+	font-style: normal;
 	line-height: 28px;
 }
 
@@ -68,7 +68,6 @@
 	max-width: 380px;
 	height: 228px;
 	align-self: start;
-
 	background: url("/../css/ad/img/ad3.jpg");
 	object-fit: contain;
 }
@@ -85,7 +84,6 @@
 	align-self: end;
 	max-width: 380px;
 	height: 228px;
-
 	background: url("/../css/ad/img/ad5.jpg");
 	object-fit: contain;
 }
@@ -126,9 +124,9 @@
 	/* font-size: calc(10px + 16 * (100vw / 1440)); */
 
 	.ad {
+		min-height: 630px;
 		padding-top: 42px;
 		padding-bottom: 35px;
-		min-height: 630px;
 	}
 	.ad__list {
 		max-width: 904px;
@@ -165,7 +163,6 @@
 
 	.ad__list-one {
 		align-self: start;
-
 		background: url("/../css/ad/img/img1024/ad1-1024.jpg");
 	}
 
@@ -206,7 +203,6 @@
 	.ad {
 		padding-top: 40px;
 		padding-bottom: 30px;
-	
 	}
 
 	.ad__list {
@@ -216,10 +212,11 @@
 		grid-template-rows: repeat(3, 200px);
 		gap: 20px;
 	}
+
 	.ad__title {
+		margin-bottom: 30px;
 		font-size: 24px;
 		line-height: 36px;
-		margin-bottom: 30px;
 	}
 	.ad__list-elements {
 		max-width: 334px;
@@ -267,10 +264,10 @@
 
 @media screen and (max-width: 320px) {
 	.ad {
-		padding-top: 23px;
-		padding-bottom: 15px;
 		width: 320px;
 		min-height: 296px;
+		padding-top: 23px;
+		padding-bottom: 15px;
 	}
 	.ad__list {
 		max-width: 280px;
@@ -279,11 +276,11 @@
 		gap: 10px;
 	}
 	.ad__title {
+		margin-bottom: 15px;
 		width: 280px;
 		height: 36px;
 		font-size: 14px;
 		line-height: 18px;
-		margin-bottom: 15px;
 	}
 
 	.ad__list-elements {

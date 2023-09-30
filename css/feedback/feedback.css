@@ -1,6 +1,5 @@
 /* !! ======== section feedback ============= */
 
-
 .feedback {
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -12,9 +11,9 @@
 	font-style: normal;
 	font-weight: 700;
 	font-size: 40px;
-	line-height: 50px;
 	color: var(--main-color);
 	text-align: center;
+	line-height: 50px;
 	text-transform: uppercase;
 }
 
@@ -38,9 +37,9 @@
 /* 1 */
 
 .element-one {
+	grid-area: maks;
 	justify-self: center;
 	align-self: end;
-	grid-area: maks;
 	background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
 		url("/../css/feedback/img/photo_1.jpg");
 }
@@ -57,9 +56,9 @@
 /* 2 */
 
 .element-two {
+	grid-area: oksana;
 	justify-self: center;
 	align-self: end;
-	grid-area: oksana;
 	background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
 		url("/../css/feedback/img/photo_2.jpg");
 }
@@ -76,9 +75,9 @@
 /* 3 */
 
 .element-three {
+	grid-area: nikita;
 	justify-self: center;
 	align-self: end;
-	grid-area: nikita;
 	background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
 		url("/../css/feedback/img/photo_3.jpg");
 }
@@ -109,9 +108,9 @@
 	height: 28px;
 	font-family: "Arial", sans-serif;
 	font-size: 20px;
-	line-height: 28px;
 	font-style: normal;
 	color: var(--main-color);
+	line-height: 28px;
 }
 
 .element-blockquote-one,
@@ -120,10 +119,10 @@
 	max-width: 680px;
 	align-self: center;
 	font-family: "Arial", sans-serif;
-	font-weight: 400;
 	font-size: 20px;
-	font-style: normal;
+	font-weight: 400;
 	color: var(--main-color);
+	font-style: normal;
 	line-height: 28px;
 }
 
@@ -142,10 +141,10 @@
 	}
 
 	.feedback__list {
-		padding-left: 77px;
-		padding-right: 77px;
 		max-width: 904px;
 		min-height: 737px;
+		padding-left: 77px;
+		padding-right: 77px;
 		grid-template-columns: 224px 1fr;
 		grid-template-rows: repeat(3, 191px 26px);
 		gap: 21px 38px;
@@ -160,16 +159,16 @@
 
 	/* 2 */
 	.element-two {
-		align-self: end;
 		grid-area: oksana;
+		align-self: end;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
 			url("/../css/feedback/img/img1024/photo_2-1024.jpg");
 	}
 
 	/* 3 */
 	.element-three {
-		align-self: end;
 		grid-area: nikita;
+		align-self: end;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
 			url("/../css/feedback/img/img1024/photo_3-1024.jpg");
 	}
@@ -183,16 +182,16 @@
 
 	.element-text-one,
 	.element-text-three {
+		justify-self: center;
 		width: 135px;
 		height: 26px;
-		justify-self: center;
 		font-size: 18px;
 		line-height: 26px;
 	}
 	.element-text-two {
+		justify-self: center;
 		width: 180px;
 		height: 26px;
-		justify-self: center;
 		font-size: 18px;
 		line-height: 26px;
 	}
@@ -221,10 +220,10 @@
 	}
 
 	.feedback__list {
-		padding-left: 74px;
-		padding-right: 74px;
 		max-width: 688px;
 		min-height: 645px;
+		padding-left: 74px;
+		padding-right: 74px;
 		grid-template-columns: 156px 1fr;
 		grid-template-rows: repeat(3, 166px 20px);
 		gap: 17px 12px;
@@ -238,16 +237,16 @@
 
 	/* 2 */
 	.element-two {
-		align-self: end;
 		grid-area: oksana;
+		align-self: end;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
 			url("/../css/feedback/img/img768/photo_2-768.jpg");
 	}
 
 	/* 3 */
 	.element-three {
-		align-self: end;
 		grid-area: nikita;
+		align-self: end;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
 			url("/../css/feedback/img/img768/photo_3-768.jpg");
 	}
@@ -266,7 +265,6 @@
 		height: 20px;
 		font-size: 14px;
 		line-height: 20px;
-
 	}
 
 	.element-text-two {
@@ -277,7 +275,7 @@
 	.element-blockquote-two,
 	.element-blockquote-three {
 		max-width: 393px;
-    font-size: 16px;
+		font-size: 16px;
 		line-height: 22px;
 	}
 }
@@ -286,10 +284,10 @@
 
 @media screen and (max-width: 320px) {
 	.feedback {
-		padding-top: 15px;
-		padding-bottom: 15px;
 		width: 320px;
 		min-height: 662px;
+		padding-top: 15px;
+		padding-bottom: 15px;
 	}
 
 	.feedback__list {
@@ -300,7 +298,7 @@
 	.feedback__title {
 		margin-right: auto;
 		margin-left: auto;
-    margin-bottom: 15px;
+		margin-bottom: 15px;
 		font-size: 14px;
 		line-height: 16px;
 	}
@@ -327,10 +325,10 @@
 	/* 1 */
 
 	.element-one {
+		grid-area: maks;
 		justify-self: center;
 		width: 86px;
 		height: 86px;
-		grid-area: maks;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
 			url("/../css/feedback/img/img320/photo_1-320.jpg");
 	}
@@ -343,8 +341,8 @@
 	/* 2 */
 
 	.element-two {
-		justify-self: center;
 		grid-area: oksana;
+		justify-self: center;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
 			url("/../css/feedback/img/img320/photo_2-320.jpg");
 	}
@@ -357,8 +355,8 @@
 	/* 3 */
 
 	.element-three {
-		justify-self: center;
 		grid-area: nikita;
+		justify-self: center;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
 			url("/../css/feedback/img/img320/photo_3-320.jpg");
 	}
@@ -377,7 +375,6 @@
 
 	.element-text-one,
 	.element-text-three {
-	
 		max-width: 105px;
 		height: 20px;
 		font-size: 14px;
@@ -394,10 +391,10 @@
 	.element-blockquote-one,
 	.element-blockquote-two,
 	.element-blockquote-three {
-		padding-top: 7px;
-		padding-bottom: 11px;
 		max-width: 280px;
 		min-height: 66px;
+		padding-top: 7px;
+		padding-bottom: 11px;
 		font-size: 12px;
 		line-height: 16px;
 	}

@@ -180,11 +180,10 @@ body {
 .wars__link {
 	position: absolute;
 	top: 5%;
-	left: 19%;
+	left: 9%;
 }
 
 .wars__text {
-	
 	max-width: 720px;
 	height: 80px;
 	font-family: Arial, sans-serif;
@@ -193,13 +192,14 @@ body {
 	line-height: 80px;
 	font-style: normal;
 }
+
 .article__text {
 	margin: 0 auto;
 	text-align: center;
-padding-top: 50px;
-padding-bottom: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	max-width: 1000px;
-	
+
 	font-family: Arial, sans-serif;
 	font-size: 24px;
 	color: var(--main-color);
@@ -220,9 +220,8 @@ padding-bottom: 50px;
 }
 
 .room__title {
-text-align: center;
+	text-align: center;
 	margin-bottom: 40px;
-	/* max-width: 980px; */
 	width: 1180px;
 	height: 50px;
 	font-family: Arial, sans-serif;
@@ -231,6 +230,7 @@ text-align: center;
 	font-weight: 700;
 	line-height: 50px;
 	font-style: normal;
+	text-transform: uppercase;
 }
 
 .room__wraper {
@@ -270,7 +270,7 @@ text-align: center;
 
 .apartment__title {
 	text-align: center;
-	max-width: 980px;
+	max-width: 1180px;
 	min-height: 50px;
 	font-family: Arial, sans-serif;
 	font-size: 40px;
@@ -278,6 +278,7 @@ text-align: center;
 	font-weight: 700;
 	line-height: 50px;
 	margin-bottom: 40px;
+	text-transform: uppercase;
 }
 
 .apartment__item {
@@ -289,16 +290,26 @@ text-align: center;
 .apartment__item-one,
 .apartment__item-two,
 .apartment__item-three {
-display: flex;
-justify-content: center;
-align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-family: Arial, sans-serif;
 	font-size: 30px;
 	color: var(--main-color);
 	font-weight: 700;
 	line-height: 36px;
 	text-transform: uppercase;
-	
+}
+
+.apartment__item-one-text {
+	width: 252px;
+	height: 36px;
+}
+
+.apartment__item-two-text,
+.apartment__item-three-text {
+	width: 50px;
+	height: 72px;
 }
 
 .apartment__item-one {
