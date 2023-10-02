@@ -41,7 +41,7 @@
 	justify-self: center;
 	align-self: end;
 	background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-		url("/../css/feedback/img/photo_1.jpg");
+		url("../feedback/img/photo_1.jpg");
 }
 
 .element-text-one {
@@ -60,7 +60,7 @@
 	justify-self: center;
 	align-self: end;
 	background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-		url("/../css/feedback/img/photo_2.jpg");
+		url("../feedback/img/photo_2.jpg");
 }
 
 .element-text-two {
@@ -79,7 +79,7 @@
 	justify-self: center;
 	align-self: end;
 	background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-		url("/../css/feedback/img/photo_3.jpg");
+		url("../feedback/img/photo_3.jpg");
 }
 
 .element-text-three {
@@ -154,7 +154,7 @@
 	.element-one {
 		align-self: end;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-			url("/../css/feedback/img/img1024/photo_1-1024.jpg");
+			url("../feedback/img/img1024/photo_1-1024.jpg");
 	}
 
 	/* 2 */
@@ -162,7 +162,7 @@
 		grid-area: oksana;
 		align-self: end;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-			url("/../css/feedback/img/img1024/photo_2-1024.jpg");
+			url("../feedback/img/img1024/photo_2-1024.jpg");
 	}
 
 	/* 3 */
@@ -170,7 +170,7 @@
 		grid-area: nikita;
 		align-self: end;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-			url("/../css/feedback/img/img1024/photo_3-1024.jpg");
+			url("../feedback/img/img1024/photo_3-1024.jpg");
 	}
 
 	.element-one,
@@ -232,7 +232,7 @@
 	/* 1 */
 	.element-one {
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-			url("/../css/feedback/img/img768/photo_1-768.jpg");
+			url("../feedback/img/img768/photo_1-768.jpg");
 	}
 
 	/* 2 */
@@ -240,7 +240,7 @@
 		grid-area: oksana;
 		align-self: end;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-			url("/../css/feedback/img/img768/photo_2-768.jpg");
+			url("../feedback/img/img768/photo_2-768.jpg");
 	}
 
 	/* 3 */
@@ -248,7 +248,7 @@
 		grid-area: nikita;
 		align-self: end;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-			url("/../css/feedback/img/img768/photo_3-768.jpg");
+			url("../feedback/img/img768/photo_3-768.jpg");
 	}
 
 	.element-one,
@@ -330,7 +330,7 @@
 		width: 86px;
 		height: 86px;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-			url("/../css/feedback/img/img320/photo_1-320.jpg");
+			url("../feedback/img/img320/photo_1-320.jpg");
 	}
 
 	.element-text-one {
@@ -344,7 +344,7 @@
 		grid-area: oksana;
 		justify-self: center;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-			url("/../css/feedback/img/img320/photo_2-320.jpg");
+			url("../feedback/img/img320/photo_2-320.jpg");
 	}
 
 	.element-text-two {
@@ -358,7 +358,7 @@
 		grid-area: nikita;
 		justify-self: center;
 		background-image: linear-gradient(rgba(196, 196, 196, 0), rgba(108, 2, 135, 0.5)),
-			url("/../css/feedback/img/img320/photo_3-320.jpg");
+			url("../feedback/img/img320/photo_3-320.jpg");
 	}
 
 	.element-text-three {

@@ -102,7 +102,7 @@ footer {
 .footer__right {
 	width: 670px;
 	height: 274px;
-	background-image: url("/../css/footer/img/map.png");
+	background-image: url("../footer/img/map.png");
 	background-repeat: no-repeat;
 	object-fit: cover;
 }
@@ -113,7 +113,7 @@ footer {
 	.footer__right {
 		width: 542px;
 		height: 274px;
-		background-image: url("/../css/footer/img/img1024/map1024.png");
+		background-image: url("../footer/img/img1024/map1024.png");
 	}
 	.link-span,
 	.link-tel,
@@ -168,7 +168,7 @@ footer {
 	.footer__right {
 		width: 542px;
 		height: 274px;
-		background-image: url("/../css/footer/img/img1024/map1024.png");
+		background-image: url("../footer/img/img1024/map1024.png");
 		background-repeat: no-repeat;
 		object-fit: cover;
 	}
@@ -215,7 +215,7 @@ footer {
 	.footer__right {
 		width: 688px;
 		height: 337px;
-		background-image: url("/../css/footer/img/img768/map768.png");
+		background-image: url("../footer/img/img768/map768.png");
 		background-repeat: no-repeat;
 		object-fit: contain;
 	}
@@ -288,7 +288,7 @@ footer {
 	.footer__right {
 		max-width: 280px;
 		height: 169px;
-		background-image: url("/../css/footer/img/img320/map320.png");
+		background-image: url("../footer/img/img320/map320.png");
 	}
 
 	.footer__left {

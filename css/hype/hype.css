@@ -14,7 +14,7 @@
 	top: 11.9%;
 	width: 672px;
 	height: 675px;
-	background-image: url("/css/hype/img/Слой.png");
+	background-image: url("../hype/img/Слой.png");
 	background-size: 675px 672px;
 	background-repeat: no-repeat;
 	background-size: contain;
@@ -215,7 +215,7 @@
 		height: 520px;
 		left: 50%;
 		top: 12.1%;
-		background-image: url("/css/hype/img/img1024/Слой1024.png");
+		background-image: url("../hype/img/img1024/Слой1024.png");
 		background-size: 453px 520px;
 		object-fit: contain;
 	}
@@ -301,7 +301,7 @@
 		top: 10.9%;
 		width: 409px;
 		height: 479px;
-		background-image: url("/css/hype/img/img768/Слой768.png");
+		background-image: url("../hype/img/img768/Слой768.png");
 		background-size: 409px 479px;
 	}
 
@@ -386,7 +386,7 @@
 		top: 12.2%;
 		width: 161px;
 		height: 179px;
-		background-image: url("/css/hype/img/img320/Слой320.png");
+		background-image: url("../hype/img/img320/Слой320.png");
 		background-size: 161px 179px;
 	}
 
