@@ -58,7 +58,7 @@ footer {
 	margin-bottom: 0;
 }
 
-.footer__list {
+.footer__link {
 	margin-bottom: 38px;
 }
 
@@ -194,8 +194,12 @@ footer {
 		width: 688px;
 	}
 
-	.footer__list {
+	.footer__link {
 		margin-bottom: 38px;
+	}
+
+	.footer__list {
+	
 		text-align: center;
 	}
 
@@ -205,7 +209,7 @@ footer {
 		width: 380px;
 	}
 
-	.footer__list {
+	.footer__link {
 		margin-bottom: 27px;
 	}
 
@@ -281,7 +285,7 @@ footer {
 		height: 20px;
 	}
 
-	.footer__list {
+	.footer__link {
 		margin-bottom: 10px;
 	}
 

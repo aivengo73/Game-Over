@@ -18,6 +18,7 @@
 }
 
 .list__item-element {
+	position: relative;
 	display: flex;
 	align-items: center;
 	color: #1c1a1a;
@@ -26,6 +27,7 @@
 	transition-duration: 3s, 0.5s;
 	transition-property: color, background-color;
 	transition-timing-function: ease-in-out;
+	cursor: pointer;
 }
 
 .list__item-element:nth-child(2n) {
@@ -36,7 +38,6 @@
 .purple:hover {
 	color: var(--purple-color);
 	background-color: var(--main-color);
-	/* border-radius: 50%; */
 }
 
 .white:hover {
@@ -73,6 +74,29 @@
 	width: 46px;
 	height: 46px;
 }
+
+/* .white::after {
+	position: absolute;
+	content: "";
+	top: 25%;
+	left: 90%;
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='46' height='46' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M22.8306 14H23.5086V34H22.8306V14Z' fill='currentColor' /%3e%3cpath d='M13.0001 24.1695V23.4915H33.0001V24.1695H13.0001Z' fill='currentColor' /%3e%3ccircle cx='23.0001' cy='23' r='22' stroke='currentColor' stroke-width='2' /%3e%3c/svg%3e");
+	width: 46px;
+	height: 46px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+} */
+
+/* .white:hover::after  {
+	fill: var(--main-color);
+	background-color: var(--purple-color);
+	border-radius: 50%;
+	stroke: white;
+} */
+
+	/* color: var(--purple-color);
+	background-color: var(--main-color); */
+
 
 /* !!  @media  1200px  */
 
@@ -157,6 +181,14 @@
 	.purple-last {
 		margin-bottom: 0;
 	}
+
+	/* .white::after {
+		top: 20%;
+		left: 92%;
+		width: 46px;
+		height: 46px;
+	
+	} */
 }
 
 /* !!  @media  768px  */
@@ -211,6 +243,13 @@
 	.list__item-element > purple-last {
 		margin-bottom: 0;
 	}
+
+	/* .white::after {
+		top: 19%;
+		left: 83.9%;
+		width: 46px;
+		height: 46px;
+	} */
 }
 
 /* !!  @media  320px  */
@@ -266,5 +305,12 @@
 	.purple-last {
 		margin-bottom: 0;
 	}
-}
 
+	/* .white::after {
+		top: 19%;
+		left: 85%;
+		width: 30px;
+		height: 30px;
+		background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='30' height='30' viewBox='0 0 46 46' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M22.8306 14H23.5086V34H22.8306V14Z' fill='currentColor' /%3e%3cpath d='M13.0001 24.1695V23.4915H33.0001V24.1695H13.0001Z' fill='currentColor' /%3e%3ccircle cx='23.0001' cy='23' r='22' stroke='currentColor' stroke-width='2' /%3e%3c/svg%3e");
+	} */
+}

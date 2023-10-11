@@ -97,6 +97,15 @@ svg {
 	margin: 0 auto;
 }
 
+/* !!  @media  1292px  */
+
+@media screen and (max-width: 1292px) {
+	.container {
+		padding-left: 60px;
+		padding-right: 60px;
+		max-width: 1300px;
+	}
+}
 
 /* !!  @media  1024px  */
 

@@ -249,6 +249,7 @@
 
 .input-name,
 .input-surname {
+	padding-left: 20px;
 	border: none;
 	transition-duration: 0.4s;
 	transition-property: outline;
@@ -300,6 +301,7 @@
 
 .input-tel,
 .input-email {
+	padding-left: 20px;
 	border: none;
 	transition-duration: 0.4s, 1s;
 	transition-property: outline, border;

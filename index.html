@@ -75,7 +75,7 @@
 							<p class="top-right-text">Новейшая аппаратура</p>
 						</div>
 					</div>
-					<button class="hype__content-button" type="submit">Забронировать</button>
+					<a class="hype__content-button" href="#reserve" type="submit">Забронировать</a>
 					<a class="hype__link" href="#ad">
 						<svg class="hype__link-img" width="97" height="97" viewBox="0 0 97 97" fill="none"
 							xmlns="http://www.w3.org/2000/svg">
@@ -137,27 +137,27 @@
 
 		<section class="halls">
 			<div class="container">
-				<h2 id="halls" class="halls__title" >наши залы</h2>
+				<h2 id="halls" class="halls__title">наши залы</h2>
 				<ul class="halls__list d-grid">
 
 					<li class="list-item one">
-						<a class="list-item-elem" href="vibes/vibes.html">80’s vibes</a>
-						
+						<a class="list-item-elem" href="vibes/vibes.html">80’s <br> vibes</a>
+
 					</li>
 
 					<li class="list-item two">
-						<a class="list-item-elem" href="star-wars/wars.html">Star wars</a>
-						
+						<a class="list-item-elem" href="star-wars/wars.html">Star <br> wars</a>
+
 					</li>
 
 					<li class="list-item three">
-						<a class="list-item-elem" href="west/west.html">wild west</a>
-				
+						<a class="list-item-elem" href="west/west.html">wild <br> west</a>
+
 					</li>
 
 					<li class="list-item four">
-						<a class="list-item-elem" href="neon/neon.html">neon style</a>
-						
+						<a class="list-item-elem" href="neon/neon.html">neon <br> style</a>
+
 					</li>
 
 				</ul>
@@ -169,7 +169,7 @@
 		<section class="booking">
 			<div class="container">
 				<div class="booking__wrap">
-					<h2 id="reserve" class="booking__wrap-title" >Забронировать зал просто</h2>
+					<h2 id="reserve" class="booking__wrap-title">Забронировать зал просто</h2>
 
 					<form class="booking__form" action="https://jsonplaceholder.typicode.com/posts" method="post">
 						<h3 class="booking__wrap-halls">Выбери зал</h3>
@@ -286,44 +286,43 @@
 						<div class="booking__wrap-bottom  ">
 
 							<!-- <div class="booking__wrap-bottom-left "> -->
-								<div class="booking__wrap-left-grup d-flex flex-sb">
-									<label class="bottom-left-input date">
-										<input class="input-date" type="number" name="date" placeholder="Дата">
-									</label>
-
-									<label class="bottom-left-input time">
-										<input class="input-time" type="number" name="time" placeholder="Время">
-									</label>
-								</div>
-
-								<label class="bottom-left-input number">
-									<input class="input-number" type="number" name="quantity of man" placeholder="Сколько человек"
-										min="1">
+							<div class="booking__wrap-left-grup d-flex flex-sb">
+								<label class="bottom-left-input date">
+									<input class="input-date" type="number" name="date" placeholder="Дата">
 								</label>
+
+								<label class="bottom-left-input time">
+									<input class="input-time" type="number" name="time" placeholder="Время">
+								</label>
+							</div>
+
+							<label class="bottom-left-input number">
+								<input class="input-number" type="number" name="quantity of man" placeholder="Сколько человек" min="1">
+							</label>
 							<!-- </div> -->
 
 
 							<!-- <div class="booking__wrap-bottom-center"> -->
-								<label class="bottom-center-input">Имя
-									<input class="input-name" type="text" name="name">
-								</label>
-								<label class="bottom-center-input surname">Фамилия
-									<input class="input-surname" type="text" name="surname">
-								</label>
+							<label class="bottom-center-input">Имя
+								<input class="input-name" type="text" name="name">
+							</label>
+							<label class="bottom-center-input surname">Фамилия
+								<input class="input-surname" type="text" name="surname">
+							</label>
 							<!-- </div> -->
 
 
 							<!-- <div class="booking__wrap-bottom-right"> -->
-								<label class="bottom-right-input tel">Телефон
-									<input class="input-tel" type="tel" name="phone" required>
-									<!-- <input type="tel" name="phone" required placeholder="+7-___-___-__-__"
+							<label class="bottom-right-input tel">Телефон
+								<input class="input-tel" type="tel" name="phone" required>
+								<!-- <input type="tel" name="phone" required placeholder="+7-___-___-__-__"
 									pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$"> -->
-								</label>
-								<label class="bottom-right-input email">Email
-									<input class="input-email" type="email" name="login">
-								</label>
+							</label>
+							<label class="bottom-right-input email">Email
+								<input class="input-email" type="email" name="login">
+							</label>
 
-								<button class="booking__wrap-bottom-btn" type="submit">Забронировать</button>
+							<button class="booking__wrap-bottom-btn" type="submit">Забронировать</button>
 							<!-- </div> -->
 						</div>
 					</form>
@@ -397,48 +396,75 @@
 		<section class="feedback">
 			<div class="container">
 
-				<h2 id="reviews" class="feedback__title" >ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
+				<h2 id="reviews" class="feedback__title">ОТЗЫВЫ ПОСЕТИТЕЛЕЙ</h2>
 
-				<div class="feedback__list d-grid">
+				<ul class="feedback__list d-grid">
 
 					<!-- 1 -->
- 					<!-- <div class="feedback__list-element list-element-one"> -->
-						<div class="element-one"></div>
-						<p class="element-text-one">Макс Самойлов</p>
-					<!-- </div> -->
-					
-					<blockquote class="element-blockquote element-blockquote-one">Отмечали здесь день рождения с компанией друзей, всё было очень
-						круто!
-						VR очки это просто бомба, никогда ещё я не был в таком полном игровом погружении.
-						Сервис на высоте!
-					</blockquote>
-				
+					<li class="feedback__list-element list-element-one d-grid">
+						<figure class="list-elem maks">
+							<picture class="elem-picture">
+								<source media="(min-width: 1440px)" srcset="css/feedback/img/photo_1.jpg" type="image/jpg">
+								<source media="(min-width:1024px)" srcset="css/feedback/img/img1024/photo_1-1024.jpg" type="image/jpg">
+								<source media="(min-width: 768px)" srcset="css/feedback/img/img768/photo_1-768.jpg" type="image/jpg">
+								<source media="(min-width: 320px)" srcset="css/feedback/img/img320/photo_1-320.jpg" type="image/jpg">
+								<img class="element-one" width="280" height="280" srcset="css/feedback/img/photo_1.jpg"
+									alt="Фото посетителя">
+							</picture>
+							<figcaption class="element-text-one">Макс Самойлов</figcaption>
+						</figure>
+
+						<blockquote class="element-blockquote element-blockquote-one">Отмечали здесь день рождения с компанией
+							друзей, всё было очень
+							круто!
+							VR очки это просто бомба, никогда ещё я не был в таком полном игровом погружении.
+							Сервис на высоте!
+						</blockquote>
+					</li>
 
 					<!-- 2 -->
-					<!-- <div class="feedback__list-element list-element-two"> -->
-						<div class="element-two"></div>
-						<p class="element-text-two">Оксана Григорьева</p>
-					<!-- </div> -->
-					
-					<blockquote class="element-blockquote element-blockquote-two">Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный
-						получился корпоратив!
-						У нас в городе больше нет подобных заведений
-					</blockquote>
-				
+					<li class="feedback__list-element list-element-two">
+						<figure class="list-elem oksana">
+							<picture class="elem-picture">
+								<source media="(min-width: 1440px)" srcset="css/feedback/img/photo_2.jpg" type="image/jpg">
+								<source media="(min-width:1024px)" srcset="css/feedback/img/img1024/photo_2-1024.jpg" type="image/jpg">
+								<source media="(min-width: 768px)" srcset="css/feedback/img/img768/photo_2-768.jpg" type="image/jpg">
+								<source media="(min-width: 320px)" srcset="css/feedback/img/img320/photo_2-320.jpg" type="image/jpg">
+								<img class="element-two" width="280" height="280" src="css/feedback/img/photo_2.jpg"
+									alt="Фото посетителя">
+							</picture>
+							<figcaption class="element-text-two">Оксана Григорьева</figcaption>
+						</figure>
 
+						<blockquote class="element-blockquote element-blockquote-two">Были в комнате Дикий Запад, пели в караоке под
+							Шакиру, отличный
+							получился корпоратив!
+							У нас в городе больше нет подобных заведений
+						</blockquote>
+					</li>
 
 					<!-- 3 -->
-					<!-- <div class="feedback__list-element list-element-three"> -->
-						<div class="element-three"></div>
-						<p class="element-text-three">Никита Ященко</p>
-					<!-- </div> -->
-					
-					<blockquote class="element-blockquote element-blockquote-three">Немного подвисала игра в VR очках, а так всё норм. Крутое оформление
-						комнаты
-						в стиле звёздных войн, попал в атмосферу космоса
-					</blockquote>
-			
-				</div>
+					<li class="feedback__list-element list-element-three">
+						<figure class="list-elem nikita">
+							<picture class="elem-picture">
+								<source media="(min-width: 1440px)" srcset="css/feedback/img/photo_3.jpg" type="image/jpg">
+								<source media="(min-width:1024px)" srcset="css/feedback/img/img1024/photo_3-1024.jpg" type="image/jpg">
+								<source media="(min-width: 768px)" srcset="css/feedback/img/img768/photo_3-768.jpg" type="image/jpg">
+								<source media="(min-width: 320px)" srcset="css/feedback/img/img320/photo_3-320.jpg" type="image/jpg">
+								<img class="element-three" width="280" height="280" src="css/feedback/img/photo_3.jpg"
+									alt="Фото посетителя">
+							</picture>
+							<figcaption class="element-text-three">Никита Ященко</figcaption>
+						</figure>
+
+						<blockquote class="element-blockquote element-blockquote-three">Немного подвисала игра в VR очках, а так всё
+							норм. Крутое оформление
+							комнаты
+							в стиле звёздных войн, попал в атмосферу космоса
+						</blockquote>
+					</li>
+
+				</ul>
 			</div>
 		</section>
 
@@ -451,57 +477,57 @@
 				<ul class="list__item">
 					<li class="list__item-element white">
 						<p class="list__item-text">Можно ли забронировать комнату онлайн?</p>
-						<a class="list__item-svg-purple" href="#">
-							<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<div class="list__item-svg-purple">
+						<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M22.8306 14H23.5086V34H22.8306V14Z" fill="currentColor" />
 								<path d="M13.0001 24.1695V23.4915H33.0001V24.1695H13.0001Z" fill="currentColor" />
 								<circle cx="23.0001" cy="23" r="22" stroke="currentColor" stroke-width="2" />
 							</svg>
-						</a>
+						</div>
 					</li>
 
 					<li class="list__item-element purple">
 						<p class="list__item-text">Могут ли мне вернуть деньги за бронь?</p>
-						<a class="list__item-svg" href="#">
+						<div class="list__item-svg">
 							<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M22.8306 14H23.5086V34H22.8306V14Z" fill="currentColor" />
 								<path d="M13.0001 24.1695V23.4915H33.0001V24.1695H13.0001Z" fill="currentColor" />
 								<circle cx="23.0001" cy="23" r="22" stroke="currentColor" stroke-width="2" />
 							</svg>
-						</a>
+						</div>
 					</li>
 
 					<li class="list__item-element white">
 						<p class="list__item-text">Какая комната самая популярная?</p>
-						<a class="list__item-svg-purple" href="#">
+						<div class="list__item-svg-purple">
 							<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M22.8306 14H23.5086V34H22.8306V14Z" fill="currentColor" />
 								<path d="M13.0001 24.1695V23.4915H33.0001V24.1695H13.0001Z" fill="currentColor" />
 								<circle cx="23.0001" cy="23" r="22" stroke="currentColor" stroke-width="2" />
 							</svg>
-						</a>
+						</div>
 					</li>
 
 					<li class="list__item-element purple purple-last">
 						<p class="list__item-text">Как получить VIP карту?</p>
-						<a class="list__item-svg" href="#">
+						<div class="list__item-svg">
 							<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M22.8306 14H23.5086V34H22.8306V14Z" fill="currentColor" />
 								<path d="M13.0001 24.1695V23.4915H33.0001V24.1695H13.0001Z" fill="currentColor" />
 								<circle cx="23.0001" cy="23" r="22" stroke="currentColor" stroke-width="2" />
 							</svg>
-						</a>
+						</div>
 					</li>
 
 					<li class="list__item-element white ultimate">
 						<p class="list__item-text">Какая комната самая популярная?</p>
-						<a class="list__item-svg-purple" href="#">
+						<div class="list__item-svg-purple">
 							<svg width="46" height="46" viewBox="0 0 46 46" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path d="M22.8306 14H23.5086V34H22.8306V14Z" fill="currentColor" />
 								<path d="M13.0001 24.1695V23.4915H33.0001V24.1695H13.0001Z" fill="currentColor" />
 								<circle cx="23.0001" cy="23" r="22" stroke="currentColor" stroke-width="2" />
 							</svg>
-						</a>
+						</div>
 					</li>
 				</ul>
 			</div>
@@ -512,7 +538,7 @@
 
 		<footer class="footer">
 			<div class="container">
-				<h2 id="contact" class="footer__title" >КОНТАКТЫ</h2>
+				<h2 id="contact" class="footer__title">КОНТАКТЫ</h2>
 				<div class="footer__grup d-flex flex-sb">
 					<div class="footer__left">
 						<address class="footer__link">
@@ -520,7 +546,7 @@
 
 							<ul class="footer__list">
 
- 								<li class="list-link list-link-top">
+								<li class="list-link list-link-top">
 									<a class="link-svg" href="#">
 										<svg width="35" height="32" viewbox="0 0 35 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 											<path
